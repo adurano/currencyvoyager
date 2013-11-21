@@ -9,8 +9,7 @@ require_once("header.php");
       
 ?>
 
-	<div id="world-map" style="width: 600px; height: 400px"></div>
-
+	
 
     <div class="contents"></div>
 <?
