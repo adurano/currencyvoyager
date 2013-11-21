@@ -1,0 +1,46 @@
+/* Typography
+------------------------------------------------------------ */
+
+$body-font-size           : 18px;
+$body-line-height         : 1.5;
+$scale-factor             : 1.618; // http://modularscale.com/
+$font-head				  : Londrina Solid, cursive;
+$font-body				  : Architects Daughter, cursive;
+$font-test                : Josefin Slab, serif;
+
+body { @include rhythm(0); 
+	color: $color-text;
+}
+
+h1,.alpha   { @include rhythm(4, 0, 1); }
+h2,.beta    { @include rhythm(3, 0, 1); 
+
+	font-family: $font-head;
+}
+h3,.gamma   { @include rhythm(2, 0, 1); }
+h4,.delta   { @include rhythm(1, 0, 0); }
+h5,.epsilon { @include rhythm(0, 0, 0); }
+h6,.zeta    { @include rhythm(-1, 0, 0); }
+p, ul, ol   { @include rhythm(0, 0, 1); 
+
+	font-family: $font-body;
+}
+
+/*
+h1, h2, h3, h4, h5, h6 {
+
+	font: $font-title;
+	font-weight: light;
+	font-family: 'Londrina Solid', cursive;
+ 	color: $color-text;
+ }
+
+ $font-title: bold helvetica 24px/2rem;
+
+
+font-size: 200%; //32px
+
+ $font-body: 1rem/1rem
+*/
+
+
