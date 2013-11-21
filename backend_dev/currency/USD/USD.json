@@ -1,0 +1,63 @@
+{
+	"currencyCode" : "USD",
+	"currencyName" : "United States Dollar",
+	"inflationRate" : "2.0%",
+	"fraction"	: "cent",
+	"countries" : ["United States", "East Timor", "Ecuador", "El Salvador", "Panama"],
+	"bio" : "This is where the bio goes",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "Five Dollar Bill",
+	 	"inCirc" : "400",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5_front.jpg",
+	 			"info" 	: [
+	 				"This bill features Abe Lincoln",
+	 				"Some Other Detail",
+	 				"it's the front"
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5_back.jpg",
+	 			"info" 	: [
+	 				"This is the lincoln monument",
+	 				"Some Other Detail",
+	 				"it's the back"
+	 			]
+	
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "Ten Dollar Bill",
+	 	"inCirc" : "1000",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10_front.jpg",
+	 			"info" 	: [
+	 				"This bill features Alexander Hamilton",
+	 				"Some Other Detail",
+	 				"it's the front"
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10_back.jpg",
+	 			"info" 	: [
+	 				"This bill features the federal reserve",
+	 				"Some Other Detail",
+	 				"it's the back"
+	 			]
+	
+			}
+	}]
+	
+
+}
