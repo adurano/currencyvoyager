@@ -6,7 +6,11 @@ img {
 body {background: url(../img/gray.png) repeat; }
 
 header {
-    height: 280px;
+    height: 50px;
+    background: rgba(250, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 200;
 }
 
 .promo {@include outer-container;}
@@ -24,13 +28,50 @@ header {
     position: absolute;
 
 }
+.index {
+    // background: rgba(250, 0, 0, 0.5);
+    padding-top: 60px;
+}
+.flag {
+    background: rgba(250, 250, 250, 0.5);
+    //background: url(../img/costaflag.png) no-repeat; 
+} 
+.info {
+    @include span-columns(3);
+    background: rgba(250, 250, 250, 0.5);
+}
+.icon {
+    @include span-columns(1.5 of 3);
+    @include omega();
+    text-align: center;
+    height: 100px;
+}
+.text {
+    @include span-columns(3 of 3);
+    margin: 8px;
+}
+.graphsection {
+    @include span-columns(9);
+    @include omega();
+    background: rgba(250, 250, 250, 0.5);
+}
 
+.pie {
+    @include span-columns(3 of 9);
+    text-align: center;
+    padding-top: 8px;
+}
+.bar {
 
+}
 
-
-
-
-
+footer {
+    margin-top: 60px;
+    height: 50px;
+    background: rgba(250, 0, 0, 0.5);
+    width: 100%;
+    z-index: 200;
+}
 
 
 
@@ -219,5 +260,170 @@ header {
 //         }
 //     }
 // }
+
+// /************************* insta MID 2 *************************/
+
+// .mid2 img { 
+//     margin-top: 20px;
+//     width: 50%;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+// .page-grid {
+//      @include media ($small) {
+//         @include span-columns(12);
+//         @include shift(1);
+//         @include omega(1n);
+//         h1 { @include rhythm(2, 0, 1);}
+//     }
+//      @include media ($medium) {
+//         @include span-columns(6);
+//         @include omega(2n);
+//         h1 { @include rhythm(2, 0, 1); 
+//         }
+//     }
+//     @include media ($big) {
+//         @include span-columns(6);
+//         @include omega(2n);
+//     }
+// }
+
+
+
+// /************************* SHARE *************************/
+
+// .share { 
+//     margin-top: 30px;
+//     text-align: center;
+// }
+// .find {
+//     padding-top: 50px;
+// }
+// .share-nav {
+//     li:first-child { 
+//         @include shift(3);}
+//     li {
+//         @include shift(1);
+//         @include span-columns(2);
+//         padding-bottom: 50px;
+//     }
+// }
+
+// /************************* insta *************************/
+
+// #instafeed { 
+//     margin-top: 50px;
+//      @include span-columns(14);
+//      img { width: 25%;
+//         margin-bottom: -7px;
+//     }
+//     @include media ($small) {
+//             img { width: 33%;}
+//         }
+// }
+
+// /************************* MEDLEM *************************/
+
+// .medlem {
+//     padding-top: 50px;
+//     height: 375px;
+//     background: $background-flip;
+//         @include media ($big) {
+//         @include span-columns(6);
+//     }
+
+// /************************* HOVER CARD *************************/
+
+//         // @include perspective(400px);
+
+//         // img {
+//         //     @include transform( rotateX(0deg) rotateZ(-30deg));
+//         //     //@include transform( rotateX(0deg));
+//         //     @include transition (all 0.5s ease-in-out);
+//         // }
+
+//         // &:hover img {
+//         //    // @include transform( rotateZ(0deg));
+//         //     @include transform( rotateX(360deg) rotateZ(0deg));   
+//         // }   
+// }
+
+// .medlem img {
+//     @include media ($small) {
+//         @include span-columns(12 of 14);
+//         @include shift(1);
+//         @include omega(1n);
+//     }
+// }
+
+// /************************* CLICK-FLIP CARD *************************/
+
+// .card-test  { 
+//     @include perspective(800px); 
+//     margin-top: 30px;
+//     height: 390px;
+// }
+// .card { 
+//     position: absolute;
+//     height: 225px; width: 360px;
+        
+
+//     @include backface-visibility (hidden); 
+//     @include transition (all 0.6s ease-in-out);
+// }
+// #back {background: url(../img/medlem2.png) 50% 50% no-repeat;
+//     p {font-size: 19px; padding-top: 57px; margin-left: 25px;}
+// }
+
+// #front {background: url(../img/medlem.png) 50% 50% no-repeat; }
+
+
+// /************************* FOOTER *************************/
+
+
+
+// .footer {
+//     height: 600px;
+//     background: $background-footer;
+//     background-size: cover;
+
+//     p, h4 { color: #efefef;}
+
+//     .box1 {
+//         padding-top:50px;
+//         @include media ($big) {
+//             padding-left: 10px;
+//             @include span-columns(7);
+//             @include shift(1);
+//         }
+//         @include media ($medium) {
+//             @include span-columns(12);
+//             @include shift(1);
+//         }
+//         @include media ($small) {
+//             @include span-columns(12);
+//             @include shift(1);
+//         }
+//         p {font-size: 25px;}
+//     }
+//     .box2 {
+//         @include media($big) {
+//             @include span-columns(3);
+//             padding-top:50px;
+//         }
+//         @include media ($medium) {
+//             @include span-columns(12);
+//             @include shift(1);
+//             padding-top:20px;
+//         }
+//         @include media ($small) {
+//             @include span-columns(12);
+//             @include shift(1);
+//             padding-top:20px;
+//         }
+//     }
+
+// }
+
 
 

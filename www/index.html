@@ -6,39 +6,136 @@
     <title>this is now currency2 branch</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-
+    <link href='http://fonts.googleapis.com/css?family=Lato|Gilda+Display' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="js/Chart.js"></script>
 </head>
 
         <!-- ***********             OPEN                   ***********-->
 <body>
-    <section class='promo'>
     <header>
         
     </header>
+    <section class='promo'>
+
+            <img src="img/world_map.png">
+
         <section class='note'>
             <img src="img/2costa2.png">
-                <p>Mauro Fernández Acuña</p>
+                <h5>Mauro Fernández Acuña</h5>
         </section>
             <!-- <section class='info1'>
                 <p>info info</p>
             </section> -->
         <section class='note'>
             <img src="img/2costa.png">
-            <p>Bull Shark</p>
-        </section>     
+            <h5>Bull Shark</h5>
+        </section>  
     </section>
+    <section class='promo index'>
+        <section class='info'>
 
+            <h3>Costa Rica</h3>
+
+            <section class="icon">
+
+                <section class="flag">
+                    <img src="img/costaflag.png">
+                </section>
+            </section>
+
+            <section class="icon">  
+
+                <h2>&#8353</h2>
+
+            </section>
+            <section class="text">
+                <p>The colón (named after Christopher Columbus, known as Cristóbal Colón in Spanish) is the currency of Costa Rica.</p>  
+            </section>     
+        </section>
+
+        <section class='graphsection'>
+            <section class="pie">
+                <canvas id="graph" height="200" width="200"></canvas>
+                <h5>national debt</h5>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 30,
+                                    color:"#F7464A"
+                                },
+                                {
+                                    value : 50,
+                                    color : "#46BFBD"
+                                },
+                                {
+                                    value : 100,
+                                    color : "#FDB45C"
+                                },
+                                {
+                                    value : 40,
+                                    color : "#949FB1"
+                                },
+                                {
+                                    value : 120,
+                                    color : "#4D5360"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graph").getContext("2d")).Doughnut(doughnutData);
+                    
+                    </script>
+            </section>
+            <section class='pie'>
+                <canvas id="graph2" height="200" width="200"></canvas>
+                <h5>Inflation</h5>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 30,
+                                    color:"#F7464A"
+                                },
+                                {
+                                    value : 80,
+                                    color : "#4D5360"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graph2").getContext("2d")).Doughnut(doughnutData);
+                    
+                    </script>
+            </section>
+            <section class='pie'>
+                <canvas id="bar" height="200" width="200"></canvas>
+                <h5>Big Mac index</h5>
+                    <script>
+
+                        var barChartData = {
+                            labels : [""],
+                            datasets : [
+                                {
+                                    fillColor : "rgba(220,220,220,0.5)",
+                                    strokeColor : "rgba(220,220,220,1)",
+                                    data : [65]
+                                },
+                                {
+                                    fillColor : "rgba(151,187,205,0.5)",
+                                    strokeColor : "rgba(151,187,205,1)",
+                                    data : [200]
+                                }
+                            ]
+                            
+                        }
+
+                    var myLine = new Chart(document.getElementById("bar").getContext("2d")).Bar(barChartData);
+                    
+                    </script>
+            </section>
+
+        </section>
+    </section>
     <footer>
 
     </footer>
-
-        <!-- ***********             PLUGS                   ***********-->
-
-    <!-- HTML5 BP jQuery Technique -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
 
 </body>
 </html>
