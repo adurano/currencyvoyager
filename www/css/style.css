@@ -146,6 +146,10 @@ header {
   .promo:after {
     clear: both; }
 
+.map {
+  padding-top: 60px;
+  margin-bottom: -60px; }
+
 .note {
   float: left;
   display: block;
@@ -163,20 +167,23 @@ header {
   position: absolute; }
 
 .index {
-  padding-top: 60px; }
+  padding-top: 30px; }
 
-.flag {
-  background: rgba(250, 250, 250, 0.5); }
+/* --------------- FLAG SECTION ( fetch background? )---- */
+.flag img {
+  padding-left: 10%;
+  padding-top: 10%; }
 
+/* --------------- INFO BOX LEFT SIDE -------------------- */
 .info {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  background: rgba(250, 250, 250, 0.5); }
+  width: 23.23176%; }
   .info:last-child {
     margin-right: 0; }
 
+/* --------------- FLAG AND CURRENCY ICON ---------------- */
 .icon {
   float: left;
   display: block;
@@ -184,28 +191,41 @@ header {
   width: 44.9258%;
   margin-right: 0;
   text-align: center;
-  height: 100px; }
+  height: 70px; }
   .icon:last-child {
     margin-right: 0; }
+  .icon h3 {
+    padding: 14px 0px 0px 10px; }
 
+/* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */
 .text {
   float: left;
   display: block;
   margin-right: 10.1484%;
   width: 100%;
-  margin: 8px; }
+  margin-left: 8px;
+  margin-right: 12px; }
   .text:last-child {
     margin-right: 0; }
+  .text p {
+    font-size: .9em; }
 
+/* --------------- GRAPH SECTION ------------------------- */
 .graphsection {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 74.41059%;
-  margin-right: 0;
-  background: rgba(250, 250, 250, 0.5); }
+  margin-right: 0; }
   .graphsection:last-child {
     margin-right: 0; }
+
+/* --------------- INDIVIDUAL GRAPHS --------------------- */
+#graphA {
+  margin-top: -147px; }
+
+#graphB {
+  margin-top: -147px; }
 
 .pie {
   float: left;
@@ -218,6 +238,8 @@ header {
     margin-right: 0; }
   .pie h3 {
     margin-top: -157px; }
+  .pie h6 {
+    margin-top: -90px; }
 
 footer {
   margin-top: 60px;

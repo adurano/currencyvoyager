@@ -30,7 +30,9 @@
     </header>
     <section class='promo'>
 
-            <img src="img/world_map.png">
+            <img class="map" src="img/world_map.png">
+
+            <h3>Costa Rica</h3>
 
         <section class='note'>
             <img src="img/2costa2.png">
@@ -46,10 +48,12 @@
             <h6>Bull sharks are typically solitary hunters</h6>
         </section>  
     </section>
+
     <section class='promo index'>
+
         <section class='info'>
 
-            <h3>Costa Rica</h3>
+            <!-- <h3>Costa Rica</h3> -->
 
             <section class="icon">
 
@@ -60,89 +64,111 @@
 
             <section class="icon">  
 
-                <h2>&#8353</h2>
+                <h3>&#8353</h3>
 
             </section>
             <section class="text">
-                <p>The colón (named after Christopher Columbus, known as Cristóbal Colón in Spanish) is the currency of Costa Rica.</p>  
+                <h4>The colón</h4> <p>Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>  
             </section>     
         </section>
 
         <section class='graphsection'>
 
-            <!-- 2ND PIE CHART -->
+            <!-- 1ST PIE CHART -->
 
             <section class="pie">
                 <canvas id="graph" height="200" width="200"></canvas>
-                <h5>national debt</h5>
+                <h5>National debt</h5>
                 <h3>25%</h3>
                     <script>
                         var doughnutData = [
                                 {
-                                    value: 30,
-                                    color:"#F7464A"
+                                    value: 25,
+                                    color: "rgba(250,0,0,0.5)"
                                 },
                                 {
-                                    value : 50,
-                                    color : "#46BFBD"
-                                },
-                                {
-                                    value : 100,
-                                    color : "#FDB45C"
-                                },
-                                {
-                                    value : 40,
-                                    color : "#949FB1"
-                                },
-                                {
-                                    value : 120,
-                                    color : "#4D5360"
+                                    value : 75,
+                                    color : "rgba(220,220,220,0)"
                                 }
                             ];
                     var myDoughnut = new Chart(document.getElementById("graph").getContext("2d")).Doughnut(doughnutData);
+                    
+                    </script>
+                <canvas id="graphA" height="200" width="200"></canvas>
+                <h6 class="epsilon">15%</h6>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 15,
+                                    color: "rgba(0,144,168,0.7)"
+                                },
+                                {
+                                    value : 85,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graphA").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 75});
                     
                     </script>
             </section>
 
             <!-- 2ND PIE CHART -->
 
-            <section class='pie'>
+            <section class="pie">
                 <canvas id="graph2" height="200" width="200"></canvas>
                 <h5>Inflation</h5>
+                <h3>18%</h3>
                     <script>
                         var doughnutData = [
                                 {
-                                    value: 20,
-                                    color: "rgba(220,220,220,0.5)"
+                                    value: 18,
+                                    color: "rgba(250,0,0,0.5)"
                                 },
                                 {
-                                    value : 80,
+                                    value : 72,
                                     color : "rgba(220,220,220,0)"
                                 }
                             ];
                     var myDoughnut = new Chart(document.getElementById("graph2").getContext("2d")).Doughnut(doughnutData);
                     
                     </script>
+                <canvas id="graphB" height="200" width="200"></canvas>
+                <h6 class="epsilon">45%</h6>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 45,
+                                    color: "rgba(0,144,168,0.7)"
+                                },
+                                {
+                                    value : 55,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graphB").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 75});
+                    
+                    </script>
             </section>
+            
 
             <!-- BAR CHART -->
 
             <section class='pie'>
                 <canvas id="bar" height="200" width="200"></canvas>
-                <h5>Big Mac index</h5>
+                <h5>Big Mac Index</h5>
                     <script>
 
                         var barChartData = {
                             labels : ["Costa Rica / U.S.A"],
                             datasets : [
                                 {
-                                    fillColor : "rgba(220,220,220,0.5)",
-                                    strokeColor : "rgba(220,220,220,1)",
-                                    data : [65]
+                                    fillColor : "rgba(250,0,0,0.3)",
+                                    
+                                    data : [-65]
                                 },
                                 {
-                                    fillColor : "rgba(151,187,205,0.5)",
-                                    strokeColor : "rgba(151,187,205,1)",
+                                    fillColor : "rgba(250,0,0,0.5)",
+                                    
                                     data : [200]
                                 }
                             ]

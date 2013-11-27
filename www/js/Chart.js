@@ -742,6 +742,9 @@ window.Chart = function(context){
 		//In case we have a canvas that is not a square. Minus 5 pixels as padding round the edge.
 		var doughnutRadius = Min([height/2,width/2]) - 5;
 		
+//CHANGE INNER RADIUS.......
+
+
 		var cutoutRadius = doughnutRadius * (config.percentageInnerCutout/100);
 		
 		for (var i=0; i<data.length; i++){

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#cur_code_enter").click(function(){var e=$("#cur_code").val();console.log(e);$.post("addcurrency.php",{currency_code:e},function(e){e=="Folder does not exist."?alert(e):$(".contents").html(e)})});$(".countrySelect").change(function(){var e=$(this).val();$.post("getcurrency.php",{countryCode:e},function(e){$(".contents").html(e)})})});
