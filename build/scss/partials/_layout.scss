@@ -60,6 +60,8 @@ header {
     @include span-columns(3 of 9);
     text-align: center;
     padding-top: 8px;
+
+    h3 {margin-top: -157px;}
 }
 .bar {
 

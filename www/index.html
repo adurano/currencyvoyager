@@ -8,8 +8,19 @@
     <meta name="viewport" content="width=device-width">
     <link href='http://fonts.googleapis.com/css?family=Lato|Gilda+Display' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="js/Chart.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#graph").click(function(e){
+                console.log(e);
+            });
+
+        });
+
+    </script>
 </head>
 
         <!-- ***********             OPEN                   ***********-->
@@ -24,6 +35,7 @@
         <section class='note'>
             <img src="img/2costa2.png">
                 <h5>Mauro Fernández Acuña</h5>
+                <h6>Director of the Bank of Costa Rica</h6>
         </section>
             <!-- <section class='info1'>
                 <p>info info</p>
@@ -31,6 +43,7 @@
         <section class='note'>
             <img src="img/2costa.png">
             <h5>Bull Shark</h5>
+            <h6>Bull sharks are typically solitary hunters</h6>
         </section>  
     </section>
     <section class='promo index'>
@@ -56,9 +69,13 @@
         </section>
 
         <section class='graphsection'>
+
+            <!-- 2ND PIE CHART -->
+
             <section class="pie">
                 <canvas id="graph" height="200" width="200"></canvas>
                 <h5>national debt</h5>
+                <h3>25%</h3>
                     <script>
                         var doughnutData = [
                                 {
@@ -86,31 +103,37 @@
                     
                     </script>
             </section>
+
+            <!-- 2ND PIE CHART -->
+
             <section class='pie'>
                 <canvas id="graph2" height="200" width="200"></canvas>
                 <h5>Inflation</h5>
                     <script>
                         var doughnutData = [
                                 {
-                                    value: 30,
-                                    color:"#F7464A"
+                                    value: 20,
+                                    color: "rgba(220,220,220,0.5)"
                                 },
                                 {
                                     value : 80,
-                                    color : "#4D5360"
+                                    color : "rgba(220,220,220,0)"
                                 }
                             ];
                     var myDoughnut = new Chart(document.getElementById("graph2").getContext("2d")).Doughnut(doughnutData);
                     
                     </script>
             </section>
+
+            <!-- BAR CHART -->
+
             <section class='pie'>
                 <canvas id="bar" height="200" width="200"></canvas>
                 <h5>Big Mac index</h5>
                     <script>
 
                         var barChartData = {
-                            labels : [""],
+                            labels : ["Costa Rica / U.S.A"],
                             datasets : [
                                 {
                                     fillColor : "rgba(220,220,220,0.5)",
