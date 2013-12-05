@@ -3,18 +3,46 @@ img {
     width: 100%;
     vertical-align:  baseline;
 }
-body {background: url(../img/gray.png) repeat; }
+body {
+    background: url(../img/gray.png) repeat; 
+    
 
-header {
-    height: 50px;
-    background: rgba(250, 0, 0, 0.5);
-    position: fixed;
-    width: 100%;
-    z-index: 200;
 }
 
-.promo {@include outer-container;}
-.map {padding-top: 60px; margin-bottom: -60px;}
+#header {
+    width: 100%;
+    background-color: rgba(250, 0, 0, 0.5); 
+    z-index: 100;
+
+}
+
+
+.intro {
+    @include outer-container;
+    border-bottom: 2px solid #666;
+    margin-top: 4em;
+    p {
+        @include span-columns(6);
+        margin-bottom: 5em;
+        
+
+    }
+}
+
+.promo {
+    @include outer-container;
+    margin-bottom: 4em;
+    margin-top: 4em;
+
+}
+
+#map {
+    padding-top: 60px; 
+    margin-bottom: -60px;
+    margin-top: 5em;
+
+}
+
 .note {
     @include span-columns(6);
     position: relative;
@@ -101,8 +129,8 @@ header {
 
 footer {
     margin-top: 60px;
-    height: 50px;
-    background: rgba(250, 0, 0, 0.5);
+    height: 200px;
+    background-color: rgba(250, 0, 0, 0.5);
     width: 100%;
     z-index: 200;
 }
