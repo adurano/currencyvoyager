@@ -17,6 +17,22 @@ $(document).ready(function(){
 
 //------ Functions begin here.
 
+	var countrySelector = function() {
+		$.getJSON( "countries/countries.json", function( countries ) {
+			
+
+			countries = countries.countries;
+
+			console.log(countries);
+			for (var i = 0; i < countries.length; i++) {
+				$(".countrySelector").append("<option value='"+countries[i].countryCode+"'>"+countries[i].name+"</option>");
+
+			}
+
+		});
+	}
+
+
 		//resizes the container for the currency based on the width of the page container
 	var resizeCurency = function() {
 
@@ -113,6 +129,8 @@ $(document).ready(function(){
 						$(".flag").attr("src", "countries/"+country.countryCode+".png");
 						$(".notebio").html(currency.bio);
 
+
+
 						//updates to global data
 						maxKey = currency.notes.length-1;
 						noteKey = 0;
@@ -139,6 +157,7 @@ $(document).ready(function(){
 
 
 //----- Fuctions to be run at the beginning of code execution
+	countrySelector();
 	getCurrency(country_Code);
 	toggleControls();
 	resizeCurency();
@@ -187,7 +206,7 @@ $(document).ready(function(){
 
 //---- code for currency selection and queries 
 
-$(".countrySelect").change(function(){
+$(document).on('change', '.countrySelector', function(){
 	
 		country_Code = $(this).val();
 		
