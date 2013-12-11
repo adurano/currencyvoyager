@@ -27,7 +27,7 @@
     </script>
 
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="deps.js"></script>
+   <!-- <script type="text/javascript" src="deps.js"></script> -->
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 
@@ -169,7 +169,13 @@
                 <img class ="flag" src="img/costaflag.png">
                 <h3 class="icon currencySymbol"> &#8353 </h3>
                 <br>
-                <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>  
+                <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>
+
+                 <h5 class = "infolabel">Also used in: </h5>
+                <ul class='allcountries'>
+
+                </ul>
+
         </div>
         <div class="infocol">
             <div id="exchangerate">
@@ -203,7 +209,7 @@
 
     <div id="map"></div>
 
-
+<script src="countries.js" type="text/javascript"></script>
     <script type="text/javascript">
 
 
@@ -220,6 +226,11 @@
                 L.tileLayer('http://{s}.tile.cloudmade.com/4a0739b848834b26bf3b825b8244fd18/115036/256/{z}/{x}/{y}.png', {                
 
                 }).addTo(map);
+
+
+
+
+
 
                 var circle1 = L.circle([40, -4], 300000, {
                         color: "rgba(250,0,0,0.7)",
@@ -240,21 +251,56 @@
                 circle2.bindPopup("Costa Rica");
 
 
-                n = 2 ^ zoom
-                xtile = ((lon_deg + 180) / 360) * n
-                ytile = (1 - (ln(tan(lat_rad) + sec(lat_rad)) / Pi)) / 2 * n
+                  var onMapClick  = function(e) {
+                        //e.preventDefault;
+                        console.log(e);
+                    }
 
-                n = 2 ^ zoom
-                lon_deg = xtile / n * 360.0 - 180.0
-                lat_rad = arctan(sinh( Pi * (1 - 2 * ytile / n)))
-                lat_deg = lat_rad * 180.0 / Pi
+                    map.on('click', onMapClick);
+
+                //svg.on('click', onMapClick);
+
+
+
+/*
+                    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);*/
+
+    var countryStyle = {
+        'color': "#000",
+        'weight': 2,
+        'opacity': 0.6
+    };
+    
+    function popup(feature, layer) {
+        if (feature.properties && feature.properties.name) {
+            layer.bindPopup(feature.properties.name);
+        }
+    }
+    
+    L.geoJson(countries, {
+        onEachFeature: popup,
+        style: countryStyle
+    }).addTo(map);
+
+
+                /*n = 2 ^ map.zoom;
+                xtile = ((lon_deg + 180) / 360) * n;
+                ytile = (1 - (ln(tan(lat_rad) + sec(lat_rad)) / Pi)) / 2 * n;
+
+                n = 2 ^ map.zoom;
+                lon_deg = xtile / n * 360.0 - 180.0;
+                lat_rad = arctan(sinh( Pi * (1 - 2 * ytile / n)));
+                lat_deg = lat_rad * 180.0 / Pi;*/
+
 
 
 
     </script>
  
     <footer>
-        <p>Some things about who we are and why we're aweseom</p>
+        <p class="container">Some things about who we are</p>
 
     </footer>
 

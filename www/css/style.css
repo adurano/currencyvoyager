@@ -311,19 +311,28 @@ body {
   .info:last-child {
     margin-right: 0; }
 
+.notebio {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .notebio:last-child {
+    margin-right: 0; }
+
 /* --------------- FLAG AND CURRENCY ICON ---------------- */
 .icon {
   float: left;
   display: block;
-  margin-right: 10.1484%;
-  width: 44.9258%;
+  margin-right: 2.35765%;
+  width: 23.23176%;
   margin-right: 0;
   text-align: center;
-  height: 70px; }
+  line-height: 120px;
+  font-size: 90px; }
   .icon:last-child {
     margin-right: 0; }
   .icon h3 {
-    padding: 14px 0px 0px 10px; }
+    padding: 40px 0px 0px 10px; }
 
 /* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */
 .text {

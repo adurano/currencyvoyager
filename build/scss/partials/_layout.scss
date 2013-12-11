@@ -246,14 +246,24 @@ position: relative;
     // background: rgba(250, 250, 250, 0.5);
 }
 
+.notebio {
+
+    @include span-columns(12);
+
+}
+
 /* --------------- FLAG AND CURRENCY ICON ---------------- */
 
 .icon {
-    @include span-columns(1.5 of 3);
+    @include span-columns(3);
     @include omega();
     text-align: center;
-    height: 70px;
-    h3 {padding: 14px 0px 0px 10px;}
+
+    line-height: 120px;
+    
+    font-size: 90px;
+
+    h3 {padding: 40px 0px 0px 10px;}
 }
 
 /* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */

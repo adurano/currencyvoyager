@@ -23,7 +23,6 @@ $(document).ready(function(){
 
 			countries = countries.countries;
 
-			console.log(countries);
 			for (var i = 0; i < countries.length; i++) {
 				$(".countrySelector").append("<option value='"+countries[i].countryCode+"'>"+countries[i].name+"</option>");
 
@@ -43,7 +42,7 @@ $(document).ready(function(){
 
 		$(".notegroup").css( "margin-right", "marginRight");
 
-		console.log($(".notegroup").css("margin-right") + "tacos");
+		
 	
 	}
 		//calculates and posistions notes based on which note key should be shown
@@ -201,6 +200,7 @@ $(document).ready(function(){
 		positionNotes();
 
 	});
+
 
 
 
