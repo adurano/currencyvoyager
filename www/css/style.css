@@ -133,53 +133,29 @@ body {
   background-color: rgba(250, 0, 0, 0.5);
   z-index: 100; }
 
-.intro {
+.container {
   *zoom: 1;
   max-width: 60em;
   margin-left: auto;
-  margin-right: auto;
-  border-bottom: 2px solid #666;
-  margin-top: 4em; }
-  .intro:before, .intro:after {
+  margin-right: auto; }
+  .container:before, .container:after {
     content: " ";
     display: table; }
-  .intro:after {
+  .container:after {
     clear: both; }
-  .intro p {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    margin-bottom: 5em; }
-    .intro p:last-child {
-      margin-right: 0; }
 
-.promo {
-  *zoom: 1;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4em;
-  margin-top: 4em; }
-  .promo:before, .promo:after {
-    content: " ";
-    display: table; }
-  .promo:after {
-    clear: both; }
+.infocol {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .infocol:last-child {
+    margin-right: 0; }
 
 #map {
   padding-top: 60px;
   margin-bottom: -60px;
   margin-top: 5em; }
-
-.note {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  position: relative; }
-  .note:last-child {
-    margin-right: 0; }
 
 .info1 {
   height: 200px;
@@ -191,10 +167,89 @@ body {
 .index {
   padding-top: 30px; }
 
+/* --------------- Note viewer Styles ---- */
+.noteselect {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .noteselect:last-child {
+    margin-right: 0; }
+  .noteselect li {
+    list-style: none;
+    display: inline;
+    margin: 0; }
+    .noteselect li a {
+      margin: 0;
+      padding: .5em;
+      border-bottom: 2px solid trasparent;
+      -webkit-transition: background-color 0.1s ease-in 0s;
+      -moz-transition: background-color 0.1s ease-in 0s;
+      transition: background-color 0.1s ease-in 0s; }
+      .noteselect li a:hover {
+        background-color: red; }
+
+.currentNoteIndicator {
+  border-bottom: 2px solid red; }
+
+#notearrows {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  text-align: right; }
+  #notearrows:last-child {
+    margin-right: 0; }
+
+.notearrow {
+  font-size: 2em;
+  padding: .5em;
+  -webkit-transition: background-color 0.1s ease-in 0s;
+  -moz-transition: background-color 0.1s ease-in 0s;
+  transition: background-color 0.1s ease-in 0s; }
+  .notearrow:hover {
+    background-color: red; }
+
+.note {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .note:last-child {
+    margin-right: 0; }
+
+.noteholder {
+  overflow-x: hidden;
+  width: 100%; }
+
+.noteposition {
+  position: relative;
+  right: 0;
+  -webkit-transition: right 0.3s ease-in 0s;
+  -moz-transition: right 0.3s ease-in 0s;
+  transition: right 0.3s ease-in 0s; }
+
+.notes {
+  width: 100000000px; }
+
+.notegroup {
+  float: left;
+  max-width: 60em;
+  margin-right: 10em;
+  position: relative; }
+
 /* --------------- FLAG SECTION ( fetch background? )---- */
-.flag img {
-  padding-left: 10%;
-  padding-top: 10%; }
+.flag {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .flag:last-child {
+    margin-right: 0; }
+  .flag img {
+    padding-left: 10%;
+    padding-top: 10%; }
 
 /* --------------- INFO BOX LEFT SIDE -------------------- */
 .info {
@@ -265,7 +320,7 @@ body {
 
 footer {
   margin-top: 60px;
-  height: 200px;
+  height: 100px;
   background-color: rgba(250, 0, 0, 0.5);
   width: 100%;
   z-index: 200; }

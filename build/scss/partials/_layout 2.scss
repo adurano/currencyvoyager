@@ -17,20 +17,29 @@ body {
 }
 
 
-.container {
-   @include outer-container;
+section {
+//    @include outer-container;
+ //  @include span-columns(12);
 }
 
+.intro {
+    @include outer-container;
+    border-bottom: 2px solid #666;
+    margin-top: 4em;
+    p {
+        @include span-columns(6);
+        margin-bottom: 5em;
+        
 
-
-.infocol {
-
-    @include span-columns(4);
-
+    }
 }
 
+.promo {
+    @include outer-container;
+    margin-bottom: 4em;
+    margin-top: 4em;
 
-
+}
 
 #map {
     padding-top: 60px; 
@@ -39,7 +48,10 @@ body {
 
 }
 
-
+.note {
+    @include span-columns(6);
+    position: relative;
+}
 
 .info1 {
     height: 200px;
@@ -54,109 +66,9 @@ body {
     padding-top: 30px;
 }
 
-
-
-/* --------------- Note viewer Styles ---- */
-
-.noteselect {
-    @include span-columns(8);
-
-    li {
-        list-style: none;
-        display: inline;
-        margin: 0;
-        a {
-            margin: 0;
-            padding: .5em;
-            border-bottom: 2px solid trasparent;
-            @include transition (background-color 0.1s ease-in 0s);
-            &:hover{
-                background-color: red;
-
-            }
-        }
-    }
-}
-
-.currentNoteIndicator {
-
-    border-bottom: 2px solid red;
-
-}
-
-#notearrows {
-
-    @include span-columns(4);
-    @include omega;
-     text-align: right;
-
-}
-
-.notearrow {
-
-   
-    font-size: 2em;
-   
-    
-    
-    padding: .5em;
-    @include transition (background-color 0.1s ease-in 0s);
-        &:hover{
-            background-color: red;
-
-    }
-    
-}
-
-.note {
-    @include span-columns(6);
-    //position: relative;
-}
-
-.noteholder {
-
-    overflow-x: hidden;
-    width: 100%;
-
-}
-
-.noteposition {
-
-    //max-width: $max-width;
-
-    position: relative;
-    right: 0;
-
-    @include transition (right .3s ease-in 0s);
-    
-
-}
-
-
-
-.notes {
-
-    width: 100000000px;
-
-}
-
-.notegroup {
-
-float: left;
-max-width: $max-width;
-margin-right: 10em;
-position: relative;
-
-
-
-}
-
-
 /* --------------- FLAG SECTION ( fetch background? )---- */
 
 .flag {
-
-    @include span-columns(9);
     img {padding-left: 10%;
         padding-top: 10%;
     }
@@ -222,7 +134,7 @@ position: relative;
 
 footer {
     margin-top: 60px;
-    height: 100px;
+    height: 200px;
     background-color: rgba(250, 0, 0, 0.5);
     width: 100%;
     z-index: 200;
