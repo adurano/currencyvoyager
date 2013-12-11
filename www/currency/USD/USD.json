@@ -3,17 +3,21 @@
 	"currencyName" : "United States Dollar",
 	"inflationRate" : "2.0%",
 	"fraction"	: "cent",
+	"symbol"	: "&#36;",
 	"countries" : ["United States", "East Timor", "Ecuador", "El Salvador", "Panama"],
 	"bio" : "This is where the bio goes",
 	
 	"notes" : [{
 		"order" : "1",
 	 	"name" : "Five Dollar Bill",
+	 	"shortname" : "5",
 	 	"inCirc" : "400",
 	 	
 	 	"front" : 
 	 		{ 
 	 			"image" : "5_front.jpg",
+	 			"heading" : "Abe",
+	 			"copy" : "A couple sentences of information discussing the image",
 	 			"info" 	: [
 	 				"This bill features Abe Lincoln",
 	 				"Some Other Detail",
@@ -24,6 +28,8 @@
 	 	"back" :  
 	 		{ 
 	 			"image" : "5_back.jpg",
+	 			"heading" : "memorial",
+	 			"copy" : "A couple sentences of information discussing the image",
 	 			"info" 	: [
 	 				"This is the lincoln monument",
 	 				"Some Other Detail",
@@ -35,11 +41,14 @@
 	{
 		"order" : "2",
 	 	"name" : "Ten Dollar Bill",
+	 	"shortname" : "10",
 	 	"inCirc" : "1000",
 	 	
 	 	"front" : 
 	 		{ 
 	 			"image" : "10_front.jpg",
+	 			"heading" : "hamilton",
+	 			"copy" : "A couple sentences of information discussing hamilton",
 	 			"info" 	: [
 	 				"This bill features Alexander Hamilton",
 	 				"Some Other Detail",
@@ -50,6 +59,8 @@
 	 	"back" :  
 	 		{ 
 	 			"image" : "10_back.jpg",
+	 			"heading" : "treasurey",
+	 			"copy" : "A couple sentences of information discussing the image",
 	 			"info" 	: [
 	 				"This bill features the federal reserve",
 	 				"Some Other Detail",

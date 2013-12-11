@@ -6,6 +6,15 @@ $(document).ready(function(){
 	var maxKey = 2;
 	var marginRight;
 
+	var country;
+	var currency;
+	var country_Code;
+
+
+
+
+
+
 //------ Functions begin here.
 
 		//resizes the container for the currency based on the width of the page container
@@ -53,24 +62,84 @@ $(document).ready(function(){
 
 	}
 
-	$(".countrySelect").change(function(){
-	
-		var country_Code = $(this).val();
-		
-		//console.log(country_Code);
 
-		$.post("getcurrency.php", {countryCode: country_Code}, function(data){
-			console.log(data);
-			$(".contents").html(data);
+	var getCurrency = function(country_code) {
+
+
+		$.getJSON( "countries/countries.json", function( countries ) {
 			
+			countries = countries.countries;
+			for (var i = 0; i < countries.length; i++) {
+				//console.log(countries[i].countryCode);
+				if(countries[i].countryCode==country_Code){
+					country=countries[i];
+
+					console.log(country);
+
+
+					$.getJSON( "currency/"+country.currencyCode+"/"+country.currencyCode+".json", function( currency ) {
+
+						//console.log(currency);
+						console.log(currency);
+						$("#countryName").html(country.name);
+
+						$(".noteselect").empty();
+						for (var b = 0; b < currency.notes.length; b++) {
+							//console.log(currency.notes[b]);
+							$(".noteselect").append("<li><a data-key='"+b+"' href='#'>"+ currency.symbol + currency.notes[b].shortname+ "</a></li>");
+
+						}
+
+						$(".notes").empty();
+						for (var b = 0; b < currency.notes.length; b++) {
+							console.log(currency.notes[b].front.image);
+							var notegroup = "<li class='notegroup' data-key="+b+">\
+						                        <div class ='note notefront'>\
+						                            <img class='money' src='currency/"+country.currencyCode+"/"+currency.notes[b].front.image+"'>\
+						                            <h5>"+currency.notes[b].front.heading+"</h5>\
+						                            <h6>"+currency.notes[b].front.copy+"</h6>\
+						                        </div>\
+						                        <div class ='note noteback'>\
+						                            <img class='money' src='currency/"+country.currencyCode+"/"+currency.notes[b].back.image+"'>\
+						                            <h5>"+currency.notes[b].back.heading+"</h5>\
+						                            <h6>"+currency.notes[b].back.copy+"</h6>\
+						                        </div>\
+						                    </li>"
+						    $(".notes").append(notegroup);
+						}
+
+						$(".currencyname").html(currency.currencyName);
+						$(".currencySymbol").html(currency.symbol);
+						$(".flag").attr("src", "countries/"+country.countryCode+".png");
+						$(".notebio").html(currency.bio);
+
+						//updates to global data
+						maxKey = currency.notes.length-1;
+						noteKey = 0;
+						positionNotes();
+					});
+
+					
+						
+
+
+
+
+				}
+			}
+
 		});
+
+	}
+
+
+
 	
-	});
 
 
 
 //----- Fuctions to be run at the beginning of code execution
-
+	getCurrency(country_Code);
 	toggleControls();
 	resizeCurency();
 
@@ -103,8 +172,9 @@ $(document).ready(function(){
 		
 	});
 
-	$(".noteselect li a").click(function(e){
+	$(".noteselect").on('click', 'li a', function(e){
 		e.preventDefault();
+		console.log("iwasclickded");
 
 
 		noteKey = $(this).attr('data-key');
@@ -112,6 +182,19 @@ $(document).ready(function(){
 		positionNotes();
 
 	});
+
+
+
+//---- code for currency selection and queries 
+
+$(".countrySelect").change(function(){
+	
+		country_Code = $(this).val();
+		
+		getCurrency(country_Code);
+	
+	});
+
 
 
 

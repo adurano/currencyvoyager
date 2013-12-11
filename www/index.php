@@ -85,16 +85,18 @@ require_once("functions.php");
 
 <body>
     <header>
-
-        <h1>logo</h1><!--Use the background tag on this element for logo-->
-        <nav>
-            <ul>
-                <li><a href="#"></a></li>
-            </ul>
-            <? 
-            //this function creates drop down of countries, put the class name in the parens 
-            getCountries(countrySelect); ?>
-        </nav>
+        <div class="container">
+            <h1>logo</h1><!--Use the background tag on this element for logo-->
+            <nav>
+                <ul>
+                    <li><a href="#"></a></li>
+                </ul>
+                <? 
+                //this function creates drop down of countries, put the class name in the parens 
+                getCountries(countrySelect); ?>
+            </nav>
+        </div>
+        
     </header>
     <div class="contents"></div>
     <section class="container">
@@ -105,7 +107,7 @@ require_once("functions.php");
     <section>
         <div class="container" id="notessection">
         <!-- this section is for the notes -->
-            <h3>Costa Rica</h3><!--country name-->
+            <h3 id="countryName">Costa Rica</h3><!--country name-->
             <ul class="noteselect">
                 <li><a class = "currentNoteIndicator"data-key="0" href="#">&#8353;2Mil</a></li>
                 <li><a data-key="1" href="#">&#8353;4Mil</a></li>
@@ -165,11 +167,12 @@ require_once("functions.php");
     </section>
     <section class="container">
         <!-- this section is for the info -->
-        <h3>The Colon</h3>
+        <h3 class="currencyname">The Colon</h3>
         <div class="infocol">
           
                 <img class ="flag" src="img/costaflag.png">
-                <h3 class="icon"> &#8353 </h3>
+                <h3 class="icon currencySymbol"> &#8353 </h3>
+                <br>
                 <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>  
         </div>
         <div class="infocol">
@@ -185,18 +188,18 @@ require_once("functions.php");
                 </div>
             </div>
             <h5 class = "infolabel">GDP: </h5>
-            <h6 class ="inforesult">$66 Trillion</h6>
+            <h6 class ="inforesult gdpValue">$66 Trillion</h6>
             <h5 class = "infolabel">Inflation Rate: </h5>
-            <h6 class ="inforesult">3%</h6>
+            <h6 class ="inforesult infaltionValue">3%</h6>
         </div>
         <div class="infocol">
              <div id="bigmacindex">
                 <h5 class = "infolabel">Big Mac Index: </h5>
                 <div class="chart"></div>
             </div>
-            <h5 class = "infolabel">National Debt: </h5>
+            <h5 class = "infolabel debtValue">National Debt: </h5>
             <h6 class ="inforesult">$303 Trillion</h6>
-            <h5 class = "infolabel">In circulation: </h5>
+            <h5 class = "infolabel circulationValue">In circulation: </h5>
             <h6 class ="inforesult">$938 Million</h6>
 
         </div>
