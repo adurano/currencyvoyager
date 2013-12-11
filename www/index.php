@@ -1,3 +1,9 @@
+<? 
+
+require_once("functions.php");
+ 
+      
+?>
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -85,8 +91,12 @@
             <ul>
                 <li><a href="#"></a></li>
             </ul>
+            <? 
+            //this function creates drop down of countries, put the class name in the parens 
+            getCountries(countrySelect); ?>
         </nav>
     </header>
+    <div class="contents"></div>
     <section class="container">
         <!-- this is the intro -->
         <h2>Welcome to Currency Voyager!</h2>
@@ -164,7 +174,15 @@
         </div>
         <div class="infocol">
             <div id="exchangerate">
-                <div class="chart"></div>
+                <h5 class = "infolabel">Exchange Rate: </h5>
+                <div class="chart">
+
+                    <div class="bar" id="bar1"><p>USD</p></div>
+                    <div class="bar" id="bar2"><p>EUR</p></div>
+                    <div class="bar" id="bar3"><p>CRN</p></div>
+                    <div class="bar" id="bar4"><p>AUS</p></div>
+
+                </div>
             </div>
             <h5 class = "infolabel">GDP: </h5>
             <h6 class ="inforesult">$66 Trillion</h6>
@@ -173,6 +191,7 @@
         </div>
         <div class="infocol">
              <div id="bigmacindex">
+                <h5 class = "infolabel">Big Mac Index: </h5>
                 <div class="chart"></div>
             </div>
             <h5 class = "infolabel">National Debt: </h5>

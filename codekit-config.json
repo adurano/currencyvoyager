@@ -158,6 +158,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -390,6 +399,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/img\/2costa.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/2costa.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/2costa.png",
+      "initialSize" : 311666,
+      "fileType" : 8192
+    },
     "\/build\/scss\/libs\/neat\/grid\/_to-deprecate.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -413,17 +433,6 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/www\/img\/2costa.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/2costa.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/2costa.png",
-      "initialSize" : 311666,
-      "fileType" : 8192
     },
     "\/build\/scss\/libs\/bourbon\/addons\/_timing-functions.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -485,17 +494,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/grid\/_media.scss" : {
+    "\/www\/no index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_media.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_media.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/www\/no index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_hide-text.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -506,6 +512,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_hide-text.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/grid\/_media.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_media.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_media.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -829,6 +847,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/img\/costaflag.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/costaflag.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/costaflag.png",
+      "initialSize" : 4922,
+      "fileType" : 8192
+    },
     "\/backend_dev\/getcurrency.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -846,17 +875,6 @@
       "inputAbbreviatedPath" : "\/backend_dev\/css\/jquery-jvectormap-1.2.2.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/www\/img\/costaflag.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/costaflag.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/costaflag.png",
-      "initialSize" : 4922,
-      "fileType" : 8192
     },
     "\/backend_dev\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -964,6 +982,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/getcurrency.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/getcurrency.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_gradient-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1057,6 +1084,17 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_tint-shade.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/www\/currency\/USD\/10_front.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
+      "initialSize" : 59562,
+      "fileType" : 4096
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_placeholder.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1363,15 +1401,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/www\/index2.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/index2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/build\/scss\/libs\/bourbon\/addons\/_button.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1480,17 +1509,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/functions\/_grid-width.scss" : {
+    "\/www\/currency\/USD\/5_front.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/functions\/_grid-width.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_grid-width.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/www\/currency\/USD\/5_front.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/currency\/USD\/5_front.jpg",
+      "initialSize" : 334392,
+      "fileType" : 4096
     },
     "\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1501,6 +1529,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_html5-input-types.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/functions\/_grid-width.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/functions\/_grid-width.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_grid-width.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1759,6 +1799,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/backend_dev\/header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1780,6 +1829,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/currency\/USD\/10_back.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/currency\/USD\/10_back.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/currency\/USD\/10_back.jpg",
+      "initialSize" : 34188,
+      "fileType" : 4096
+    },
     "\/build\/scss\/libs\/bourbon\/css3\/_appearance.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1792,14 +1852,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/www\/index.html" : {
+    "\/www\/currency\/USD\/5_back.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/www\/currency\/USD\/5_back.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/currency\/USD\/5_back.jpg",
+      "initialSize" : 160820,
+      "fileType" : 4096
     },
     "\/backend_dev\/addcurrency.php" : {
       "ignoreWasSetByUser" : 0,

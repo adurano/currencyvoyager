@@ -21,7 +21,7 @@ $(document).ready(function(){
 		console.log($(".notegroup").css("margin-right") + "tacos");
 	
 	}
-
+		//calculates and posistions notes based on which note key should be shown
 	var positionNotes = function() {
 
 		var notePos = noteKey * (containerWidth + marginRight);
@@ -37,6 +37,7 @@ $(document).ready(function(){
 		$(".noteselect li a[data-key="+noteKey+"]").addClass("currentNoteIndicator");
 		
 	}
+		//hides controls if less than 1 bill is available
 
 	var toggleControls = function() {
 
@@ -51,6 +52,22 @@ $(document).ready(function(){
 		}
 
 	}
+
+	$(".countrySelect").change(function(){
+	
+		var country_Code = $(this).val();
+		
+		//console.log(country_Code);
+
+		$.post("getcurrency.php", {countryCode: country_Code}, function(data){
+			console.log(data);
+			$(".contents").html(data);
+			
+		});
+	
+	});
+
+
 
 //----- Fuctions to be run at the beginning of code execution
 

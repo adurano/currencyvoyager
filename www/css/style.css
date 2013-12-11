@@ -239,6 +239,57 @@ body {
   margin-right: 10em;
   position: relative; }
 
+/*================== bar graph styles ===*/
+.chart {
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  position: relative; }
+  .chart:last-child {
+    margin-right: 0; }
+
+.bar {
+  width: 20%;
+  background: red;
+  height: 100%;
+  -webkit-transition: height 0.5s ease-in-out 0s;
+  -moz-transition: height 0.5s ease-in-out 0s;
+  transition: height 0.5s ease-in-out 0s;
+  position: absolute;
+  bottom: 0; }
+  .bar p {
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+    color: white; }
+
+#bar1 {
+  right: 75%;
+  height: 30%; }
+  #bar1:hover {
+    height: 90%; }
+
+#bar2 {
+  right: 50%;
+  height: 60%; }
+  #bar2:hover {
+    height: 90%; }
+
+#bar3 {
+  right: 25%;
+  height: 70%; }
+  #bar3:hover {
+    height: 90%; }
+
+#bar4 {
+  right: 0%;
+  height: 45%; }
+  #bar4:hover {
+    height: 90%; }
+
 /* --------------- FLAG SECTION ( fetch background? )---- */
 .flag {
   float: left;
