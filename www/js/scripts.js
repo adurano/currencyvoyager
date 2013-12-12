@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 	var countrySelector = function() {
 		$.getJSON( "countries/countries.json", function( countries ) {
-			
+			console.log("yo");
 
 			countries = countries.countries;
 

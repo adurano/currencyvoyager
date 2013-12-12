@@ -52,7 +52,7 @@
 { "countryCode" : "CG", "name" : "CONGO", 			"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CD", "name" : "CONGO, THE DEMOCRATIC REPUBLIC OF THE", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CK", "name" : "COOK ISLANDS", 	"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-{ "countryCode" : "CR", "name" : "COSTA RICA", 		"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
+{ "countryCode" : "CR", "name" : "COSTA RICA", 		"currencyCode" : "CRC", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CI", "name" : "CÔTE D'IVOIRE", 	"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "HR", "name" : "CROATIA", 		"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CU", "name" : "CUBA", 			"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
