@@ -1,6 +1,9 @@
-$(document).ready(function(){
-	console.log('in the event of an error, have you considered that CodeKit is not configured properly?');
-//------ global variables begin here
+
+var country_code = "CR";
+$(document).ready(function(){	
+
+	//console.log('in the event of an error, have you considered that CodeKit is not configured properly?');
+	//------ global variables begin here
 	var containerWidth;
 	var noteKey = 0;
 	var maxKey = 2;
@@ -15,11 +18,13 @@ $(document).ready(function(){
 
 
 
+
+
 //------ Functions begin here.
 
 	var countrySelector = function() {
 		$.getJSON( "countries/countries.json", function( countries ) {
-			console.log("yo");
+			//console.log("yo");
 
 			countries = countries.countries;
 
@@ -78,24 +83,27 @@ $(document).ready(function(){
 	}
 
 
-	var getCurrency = function(country_code) {
-
+	window.getCurrency = function(country_code) {
+		console.log(country_code);
 
 		$.getJSON( "countries/countries.json", function( countries ) {
-			
+			console.log(country_code);
 			countries = countries.countries;
-			for (var i = 0; i < countries.length; i++) {
-				//console.log(countries[i].countryCode);
-				if(countries[i].countryCode==country_Code){
-					country=countries[i];
 
+			for (var i = 0; i < countries.length; i++) {
+
+				console.log(countries[i].countryCode);
+				if(countries[i].countryCode.toString() == country_code){
+					console.log("ssususdfeufnasdjnf");
+					country=countries[i];
+					console.log("yep get currencty is getting " + country_code);
 					console.log(country);
 
 
 					$.getJSON( "currency/"+country.currencyCode+"/"+country.currencyCode+".json", function( currency ) {
-
+					
 						//console.log(currency);
-						console.log(currency);
+						
 						$("#countryName").html(country.name);
 
 						$(".noteselect").empty();
@@ -136,30 +144,34 @@ $(document).ready(function(){
 						positionNotes();
 					});
 
-					
-						
-
-
-
 
 				}
 			}
 
 		});
 
+
+
 	}
 
 
 
-	
 
 
 
 //----- Fuctions to be run at the beginning of code execution
+	getCurrency('AM');
 	countrySelector();
-	getCurrency(country_Code);
+	
+	//console.log("say what");
 	toggleControls();
 	resizeCurency();
+
+	$(document).click(function(e){
+
+		//console.log(e);
+
+	});
 
 
 
@@ -201,6 +213,13 @@ $(document).ready(function(){
 
 	});
 
+	$("h1").click(function(){
+
+		getCurrency("CR");
+
+	});
+
+
 
 
 
@@ -209,10 +228,13 @@ $(document).ready(function(){
 $(document).on('change', '.countrySelector', function(){
 	
 		country_Code = $(this).val();
-		
+		console.log(country_Code);
 		getCurrency(country_Code);
 	
 	});
+
+   
+
 
 
 

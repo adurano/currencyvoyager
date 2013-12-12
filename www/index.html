@@ -16,6 +16,7 @@
     <script src="js/Chart.js"></script>
 
     <script>
+
         $(document).ready(function(){
 
             $("#graph").click(function(e){
@@ -25,11 +26,13 @@
         });
 
     </script>
-
+   
     <script type="text/javascript" src="js/scripts.js"></script>
-   <!-- <script type="text/javascript" src="deps.js"></script> -->
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+    
+   <!-- <script type="text/javascript" src="deps.js"></script> -->
+
 
      <style type="text/css">
 
@@ -209,63 +212,50 @@
 
     <div id="map"></div>
 
-<script src="countries.js" type="text/javascript"></script>
+<!--<script src="countries.js" type="text/javascript"></script>-->
     <script type="text/javascript">
 
+    var map = L.map('map', {
+            center: [30, 0],
+            zoom: 3,
+            maxZoom: 5,
+            scrollWheelZoom: false,
+            bounceAtZoomLimits: true,
+    });
 
-                //var map = L.map('map', {zoom: 13}).setView([20, 100], 13);
-                var map = L.map('map', {
-                        center: [30, 0],
-                        zoom: 3,
-                        maxZoom: 5,
-                        scrollWheelZoom: false,
-                        bounceAtZoomLimits: true,
-                });
-
-
-                L.tileLayer('http://{s}.tile.cloudmade.com/4a0739b848834b26bf3b825b8244fd18/115036/256/{z}/{x}/{y}.png', {                
-
-                }).addTo(map);
+    L.tileLayer('http://{s}.tile.cloudmade.com/4a0739b848834b26bf3b825b8244fd18/115036/256/{z}/{x}/{y}.png', {               
+    }).addTo(map);
 
 
+    var circle1 = L.circle([40, -4], 300000, {
+            color: "rgba(250,0,0,0.7)",
+            fillColor: "rgba(250,0,0,0.7)",
+            fillOpacity: 0.5,
+            strokeWidth: 5000,
+    }).addTo(map);
 
 
+    var circle2 = L.circle([9, -82], 300000, {
+            color: "rgba(250,0,0,0.7)",
+            fillColor: "rgba(250,0,0,0.7)",
+            fillOpacity: 0.5,
+            strokeWidth: 5000,
+    }).addTo(map);
 
+    circle2.on('click', function(e) {
+       // alert("yeah man");
+       //e.preventDefault();
+        getCurrency("CR");
+    });
 
-                var circle1 = L.circle([40, -4], 300000, {
-                        color: "rgba(250,0,0,0.7)",
-                        fillColor: "rgba(250,0,0,0.7)",
-                        fillOpacity: 0.5,
-                        strokeWidth: 5000,
-                }).addTo(map);
+     circle1.on('click', function(e) {
+       // alert("yeah man");
+       //e.preventDefault();
+        getCurrency("US");
+    });
 
-                circle1.bindPopup("Spain");
+          
 
-                var circle2 = L.circle([9, -82], 300000, {
-                        color: "rgba(250,0,0,0.7)",
-                        fillColor: "rgba(250,0,0,0.7)",
-                        fillOpacity: 0.5,
-                        strokeWidth: 5000,
-                }).addTo(map);
-
-                circle2.bindPopup("Costa Rica");
-
-
-                  var onMapClick  = function(e) {
-                        //e.preventDefault;
-                        console.log(e);
-                    }
-
-                    map.on('click', onMapClick);
-
-                //svg.on('click', onMapClick);
-
-
-
-/*
-                    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);*/
 
     var countryStyle = {
         'color': "#000",
@@ -279,6 +269,8 @@
         }
     }
     
+
+    /*
     L.geoJson(countries, {
         onEachFeature: popup,
         style: countryStyle
@@ -293,8 +285,6 @@
                 lon_deg = xtile / n * 360.0 - 180.0;
                 lat_rad = arctan(sinh( Pi * (1 - 2 * ytile / n)));
                 lat_deg = lat_rad * 180.0 / Pi;*/
-
-
 
 
     </script>
