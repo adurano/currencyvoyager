@@ -85,14 +85,17 @@ body {
 
 #hello {
     text-align: center;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 .infocol {
 
     @include span-columns(4);
     margin-bottom: 3em;
+    text-align: center;
 
 }
+
 
 /*.map-fade {
     display: block;
@@ -244,10 +247,11 @@ position: relative;
 
 .chart {
 
-    height: 200px;
+    height: 80px;
     @include span-columns(12);
     position: relative;
    // background: gray;
+   margin-left: 2em;
 
 }
 
@@ -277,7 +281,7 @@ position: relative;
 #bar1 {
 
     right: 75%;
-    height: 30%;
+    height: 80%;
     &:hover {
 
         height: 90%;
@@ -317,12 +321,19 @@ position: relative;
 
 
 /* --------------- FLAG SECTION ( fetch background? )---- */
+.icons {
+    @include span-columns(12);
+    margin-bottom: 2em;
+
+}
 
 .flag {
 
-    @include span-columns(9);
-    img {padding-left: 10%;
+    @include span-columns(8);
+    img {padding-left: 0;
         padding-top: 10%;
+        max-width: 50%;
+        
     }
     //background: url(../img/costaflag.png) no-repeat; 
 }
@@ -345,16 +356,23 @@ position: relative;
 .icon {
     @include span-columns(3);
     @include omega();
-    text-align: center;
-
-    line-height: 120px;
+    text-align: right;
+    text-shadow: 1px 1px 1px #fff;
+    line-height: 80px;
     
-    font-size: 90px;
 
-    h3 {padding: 40px 0px 0px 10px;}
+        h3 {
+            padding: 40px 0px 0px 10px;
+        }
+
+
 }
 
 /* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */
+
+.currencyname {
+    text-shadow: 1px 1px 1px #fff;
+}
 
 .text {
     @include span-columns(3 of 3);
@@ -363,6 +381,9 @@ position: relative;
     p {font-size: .9em;}
 }
 
+.infolable {
+    text-shadow: 1px 1px 1px #fff;;
+}
 /* --------------- GRAPH SECTION ------------------------- */
 
 .graphsection {
