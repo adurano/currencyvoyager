@@ -12,6 +12,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Rationale' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
     
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="js/Chart.js"></script>
@@ -101,12 +102,18 @@
             </nav>
 
     </header>
+
+    <hr>
+
     <div class="contents"></div>
     <section class="container1">
         <!-- this is the intro -->
         <h2 id="hello">Begin your Voyage!</h2>
         <p>We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills.</p>
     </section>
+
+    <hr>
+
     <section>
         <div class="container" id="notessection">
         <!-- this section is for the notes -->
@@ -171,6 +178,9 @@
             </div>
         </div>
     </section>
+
+    
+
     <section class="container">
         <!-- this section is for the info -->
         <h3 id="countryName">Costa Rica</h3>
@@ -180,6 +190,7 @@
                 <img class ="flag" src="img/costaflag.png">
                 <h2 class="icon currencySymbol"> &#8353 </h2>
             </div>
+            <hr>
                 <br>
                 <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>
 
@@ -243,7 +254,7 @@
 });
 
     var map = L.map('map', {
-            center: [30, 0],
+            center: [25, -30],
             zoom: 3,
             maxZoom: 5,
             scrollWheelZoom: false,
@@ -280,9 +291,6 @@
        //e.preventDefault();
         getCurrency("US");
     });
-
-          
-
 
     var countryStyle = {
         'color': "#000",

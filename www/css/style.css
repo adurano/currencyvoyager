@@ -224,8 +224,6 @@ body {
   width: 100%;
   margin-top: 0em;
   margin-bottom: 4em;
-  border-top: 2px solid #666;
-  border-bottom: 2px solid #666;
   padding: 2em 0 2em 0;
   width: 100%; }
   .container1:last-child {
@@ -253,6 +251,8 @@ body {
   text-align: center; }
   .infocol:last-child {
     margin-right: 0; }
+  .infocol h5 {
+    font-size: 1.5em; }
 
 /*.map-fade {
     display: block;
@@ -376,6 +376,9 @@ body {
   margin-right: 10em;
   position: relative; }
 
+#countryName {
+  text-shadow: 2px 2px 2px #fff; }
+
 /*================== bar graph styles ===*/
 .chart {
   height: 80px;
@@ -450,6 +453,9 @@ body {
     padding-top: 10%;
     max-width: 50%; }
 
+hr {
+  color: #f00; }
+
 /* --------------- INFO BOX LEFT SIDE -------------------- */
 .info {
   float: left;
@@ -484,7 +490,7 @@ body {
 
 /* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */
 .currencyname {
-  text-shadow: 1px 1px 1px #fff; }
+  text-shadow: 2px 2px 2px #fff; }
 
 .text {
   float: left;

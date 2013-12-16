@@ -70,8 +70,8 @@ body {
    @include span-columns(12);
    margin-top: 0em;
    margin-bottom: 4em;
-   border-top: 2px solid #666;
-   border-bottom: 2px solid #666;
+   //border-top: 2px solid #666;
+   //border-bottom: 2px solid #666;
    padding: 2em 0 2em 0;
    width: 100%;
 
@@ -80,6 +80,7 @@ body {
     @include span-columns(5);
     margin-left: 30%;
    }
+
 
 }
 
@@ -93,8 +94,11 @@ body {
     @include span-columns(4);
     margin-bottom: 3em;
     text-align: center;
-
+    h5 {
+        font-size: 1.5em;
+    }
 }
+
 
 
 /*.map-fade {
@@ -242,6 +246,11 @@ position: relative;
 
 }
 
+#countryName {
+     text-shadow: 2px 2px 2px #fff;
+    
+}
+
 
 /*================== bar graph styles ===*/
 
@@ -338,6 +347,11 @@ position: relative;
     //background: url(../img/costaflag.png) no-repeat; 
 }
 
+hr {
+    color: #f00;
+    
+}
+
 /* --------------- INFO BOX LEFT SIDE -------------------- */
 
 .info {
@@ -371,7 +385,7 @@ position: relative;
 /* --------------- INFO TEXTBOX UNDER FLAG/ICON ---------- */
 
 .currencyname {
-    text-shadow: 1px 1px 1px #fff;
+    text-shadow: 2px 2px 2px #fff;
 }
 
 .text {
