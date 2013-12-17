@@ -1,0 +1,62 @@
+{
+	"currencyCode" : "CR",
+	"currencyName" : "The Colon",
+	"inflationRate" : "2.0%",
+	"fraction"	: "centimo",
+	"symbol"	: "&#8353;",
+	"countries" : ["Costa Rica"],
+	"bio" : "This is where the bio goes",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "1 Mil",
+	 	"shortname" : "1 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "1mil_a.jpg",
+	 			"heading" : "Mauro Fernández Acuña",
+	 			"copy" : "Director of the Bank of Costa Rica"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "1mil_b.jpg",
+	 			"heading" : "Bull Shark",
+	 			"copy" : "Bull sharks are typically solitary hunters"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "2 Mil",
+	 	"shortname" : "2 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "2mil_a.jpg",
+	 			"heading" : "hamilton",
+	 			"copy" : "A couple sentences of information discussing hamilton",
+	 			"info" 	: [
+	 				"This bill features Alexander Hamilton",
+	 				"Some Other Detail",
+	 				"it's the front"
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "2mil_b.jpg",
+	 			"heading" : "treasurey",
+	 			"copy" : "Whoa! Crazy shark",
+	 			"info" 	: [
+	 				"This bill features the federal reserve",
+	 				"Some Other Detail",
+	 				"it's the back"
+	 			]
+	
+			}
+	}]
+	
+
+}

@@ -1,11 +1,11 @@
 /* Typography
 ------------------------------------------------------------ */
 
-$body-font-size           : 16px;
+$body-font-size           : 13px;
 $body-line-height         : 1.5;
 $scale-factor             : 1.618; // http://modularscale.com/
-$font-head				  : Lato, sans-serif;
-$font-body				  : Gilda Display, serif;
+$font-head				  : Arvo, sans-serif;
+$font-body				  : Arvo, sans-serif;
 
 
 body { @include rhythm(0); 
@@ -14,15 +14,19 @@ body { @include rhythm(0);
 
 h1,.alpha   { @include rhythm(4, 0, 1); }
 h2,.beta    { @include rhythm(3, 0, 1); }
-h3,.gamma   { @include rhythm(2, 0, 1); }
+h3,.gamma   { @include rhythm(2, 0, 1.5); }
 h4,.delta   { @include rhythm(1, 0, 0); }
-h5,.epsilon { @include rhythm(0, 0, 0); }
-h6,.zeta    { @include rhythm(-1, 0, 0); }
+h5,.epsilon { @include rhythm(1, 0, 0); }
+h6,.zeta    { @include rhythm(0, 1, 1); }
 p, ul, ol   { @include rhythm(0, 0, 1); 
 
 	font-family: $font-body;
 }
 
+a  { @include rhythm(1, 0, 1); 
+
+	font-family: $font-body;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-head;

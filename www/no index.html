@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CV MAP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Lato|Gilda+Display' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Rationale' rel='stylesheet' type='text/css'>
+    
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/Chart.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#graph").click(function(e){
+                console.log(e);
+            });
+
+        });
+
+    </script>
+
+    <script type="text/javascript" src="deps.js"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+     <style type="text/css">
+
+                body {
+                        margin:0;
+                }
+
+                #map { 
+                        height: 500px; 
+                        margin-top: 30px;
+                        border-top: 2px #666 solid;
+                        border-bottom: 2px #666 solid;
+                }
+
+                #container {
+                        max-width: 100%;
+                        margin-left: 0px;
+                        margin-right: 0;
+                        margin-top: -10px;
+                        padding-left: 0;
+                        padding-right: 0;
+                        height: 100%;
+                        position: relative;
+                        z-index: 20;
+                }
+
+                .leaflet-left .leaflet-control {
+                        display: none;
+                }
+
+                .leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+                        display: none;
+                }
+
+                .money {
+                        box-shadow: 4px 4px 1px #ccc;
+                        -webkit-box-shadow: 4px 4px 1px #ccc;
+                        -moz-box-shadow: 4px 4px 1px #ccc;
+                }
+
+        </style>
+
+
+</head>
+
+        <!-- ***********             OPEN                   ***********-->
+
+
+<body>
+
+    <header id="header">
+        <h3 id="logo">Logo</h3>
+        <h3>Nav</h3>
+    </header>
+    
+    <section class="intro">
+        <h2>Welcome to Currency Voyager!</h2>
+        <p>We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.</p>
+
+    </section>
+
+    <section class='promo notes'><!-- re-class me to .notes -->
+
+        <h3>Costa Rica</h3>
+
+        <div class='note'>
+            <img class="money" src="img/2costa2.png">
+                <h5>Mauro Fernández Acuña</h5>
+                <h6>Director of the Bank of Costa Rica</h6>
+        </div>
+    <!-- <section class='info1'>
+        <p>info info</p>
+    </section> -->
+        <div class='note'>
+            <img class="money"src="img/2costa.png">
+                <h5>Bull Shark</h5>
+                <h6>Bull sharks are typically solitary hunters</h6>
+        </div>  
+    </section>
+    
+
+
+    <section class='promo index'>
+
+        <section class='info'>
+
+        <!-- <h3>Costa Rica</h3> -->
+
+        <section class="icon">
+
+            <section class="flag">
+                <img src="img/costaflag.png">
+            </section>
+
+        </section>
+
+        <section class="icon">  
+
+            <h3>&#8353</h3>
+
+        </section>
+
+        <section class="text">
+            <h4>The colón</h4> <p>Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>  
+        </section>  
+
+    </section>
+
+        <section class='graphsection'>
+
+            <!-- 1ST PIE CHART -->
+
+            <section class="pie">
+                <canvas id="graph" height="200" width="200"></canvas>
+                <h5>National debt</h5>
+                <h3>25%</h3>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 25,
+                                    color: "rgba(250,0,0,0.5)"
+                                },
+                                {
+                                    value : 75,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graph").getContext("2d")).Doughnut(doughnutData);
+                    
+                    </script>
+                <canvas id="graphA" height="200" width="200"></canvas>
+                <h6 class="epsilon">15%</h6>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 15,
+                                    color: "rgba(0,144,168,0.7)"
+                                },
+                                {
+                                    value : 85,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graphA").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 75});
+                    
+                    </script>
+            </section>
+
+            <!-- 2ND PIE CHART -->
+
+            <section class="pie">
+                <canvas id="graph2" height="200" width="200"></canvas>
+                <h5>Inflation</h5>
+                <h3>18%</h3>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 18,
+                                    color: "rgba(250,0,0,0.5)"
+                                },
+                                {
+                                    value : 72,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graph2").getContext("2d")).Doughnut(doughnutData);
+                    
+                    </script>
+                <canvas id="graphB" height="200" width="200"></canvas>
+                <h6 class="epsilon">45%</h6>
+                    <script>
+                        var doughnutData = [
+                                {
+                                    value: 45,
+                                    color: "rgba(0,144,168,0.7)"
+                                },
+                                {
+                                    value : 55,
+                                    color : "rgba(220,220,220,0)"
+                                }
+                            ];
+                    var myDoughnut = new Chart(document.getElementById("graphB").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 75});
+                    
+                    </script>
+            </section>
+            
+
+            <!-- BAR CHART -->
+
+            <section class='pie'>
+                <canvas id="bar" height="200" width="200"></canvas>
+                <h5>Big Mac Index</h5>
+                    <script>
+
+                        var barChartData = {
+                            labels : ["Costa Rica / U.S.A"],
+                            datasets : [
+                                {
+                                    fillColor : "rgba(250,0,0,0.3)",
+                                    
+                                    data : [-65]
+                                },
+                                {
+                                    fillColor : "rgba(250,0,0,0.5)",
+                                    
+                                    data : [200]
+                                }
+                            ]
+                            
+                        }
+
+                    var myLine = new Chart(document.getElementById("bar").getContext("2d")).Bar(barChartData);
+                    
+                    </script>
+            </section>
+
+        </section>
+    </section>
+
+    <div id="map">
+                      
+
+    </div>
+
+    <script type="text/javascript">
+
+
+                //var map = L.map('map', {zoom: 13}).setView([20, 100], 13);
+                var map = L.map('map', {
+                        center: [30, 0],
+                        zoom: 3,
+                        maxZoom: 5,
+                        scrollWheelZoom: false,
+                        bounceAtZoomLimits: true,
+                });
+
+
+                L.tileLayer('http://{s}.tile.cloudmade.com/4a0739b848834b26bf3b825b8244fd18/115036/256/{z}/{x}/{y}.png', {                
+
+                }).addTo(map);
+
+                var circle1 = L.circle([40, -4], 300000, {
+                        color: "rgba(250,0,0,0.7)",
+                        fillColor: "rgba(250,0,0,0.7)",
+                        fillOpacity: 0.5,
+                        strokeWidth: 5000,
+                }).addTo(map);
+
+                circle1.bindPopup("Spain");
+
+                var circle2 = L.circle([9, -82], 300000, {
+                        color: "rgba(250,0,0,0.7)",
+                        fillColor: "rgba(250,0,0,0.7)",
+                        fillOpacity: 0.5,
+                        strokeWidth: 5000,
+                }).addTo(map);
+
+                circle2.bindPopup("Costa Rica");
+
+
+                n = 2 ^ zoom
+                xtile = ((lon_deg + 180) / 360) * n
+                ytile = (1 - (ln(tan(lat_rad) + sec(lat_rad)) / Pi)) / 2 * n
+
+                n = 2 ^ zoom
+                lon_deg = xtile / n * 360.0 - 180.0
+                lat_rad = arctan(sinh( Pi * (1 - 2 * ytile / n)))
+                lat_deg = lat_rad * 180.0 / Pi
+
+
+
+        </script>
+
+
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
