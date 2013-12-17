@@ -19,6 +19,7 @@
     <script src="js/raphael/raphael-min.js" charset="utf-8" ></script>
     <script src="js/jquery.mapael.js" charset="utf-8" ></script>
     <script src="js/maps/world_countries.js" charset="utf-8" ></script>
+    <script src="worldmap.js" charset="utf-8" ></script>
     
 
     <script>
@@ -251,7 +252,7 @@
 
 $(document).ready(function(){
 
-   
+
 
 
     $(".mapcontainer").mapael({
@@ -259,6 +260,8 @@ $(document).ready(function(){
         name : "world_countries"
     }
     });
+
+
 
     $('#navigation a, #fixedbar a').on('click', function(e) {
     e.preventDefault();
