@@ -136,7 +136,8 @@ img {
 
 body {
   background: url(../img/map.png) repeat;
-  background-position-y: 50%; }
+  background-position-y: 50%;
+  position: relative; }
 
 #fixedbar {
   display: none;
@@ -256,43 +257,20 @@ body {
   .infocol h5 {
     font-size: 1.5em; }
 
-/*.map-fade {
-    display: block;
-    @include span-columns(12);
-    width: 100%;
-    height: 277px;
-    position: relative;
-    top: 0;
-    z-index: 10;
-    background: url(../img/fade.png);
-    background-image: url(../img/fade.png);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-} */
 #map {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  padding-top: 40px;
-  margin-bottom: -60px;
-  margin-top: 2em;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
   height: 400px; }
-  #map:last-child {
-    margin-right: 0; }
 
 .mapcontainer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%; }
+  width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 100%; }
   .mapcontainer:last-child {
     margin-right: 0; }
 
@@ -302,7 +280,7 @@ body {
   moz-opacity: 0.70;
   opacity: 0.70;
   filter: alpha(opacity=70);
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 10px;
   max-width: 200px;
   display: none;
@@ -562,13 +540,20 @@ hr {
   .pie h6 {
     margin-top: -90px; }
 
-footer {
-  margin-top: 100px;
-  height: 200px;
-  width: 100%;
-  z-index: 1;
-  background-color: white;
-  padding-top: 5em; }
-  footer p {
-    text-align: center;
-    margin-top: 80px; }
+/*#footer {
+
+    display: none;
+
+    margin-top: 100px;
+    height: 200px;
+    //background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    background-color: #666;
+    padding-top: 5em;
+    position: absolute;
+    p{
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+*/

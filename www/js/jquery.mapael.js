@@ -748,14 +748,16 @@
 			}
 			, defaultArea : {
 				attrs : {
-					fill : "#343434"
-					, stroke : "#5d5d5d"
+					fill : "#777777"
+					, stroke : "#777777"
 					, "stroke-width" : 1
 					, "stroke-linejoin" : "round"
 				}
 				, attrsHover : {
-					fill : "#f38a03"
-					, animDuration : 300
+					fill : "#FFFFFF"
+					, stroke : "#777777"
+					//#59c4fc light blue
+					, animDuration : 200
 				}
 				, text : {
 					position : 'inner'
@@ -766,7 +768,7 @@
 					}
 					, attrsHover : {
 						fill : "#eaeaea"
-						, "animDuration" : 300
+						, "animDuration" : 100
 					}
 				}
 			}
@@ -775,12 +777,12 @@
 				, size : 15
 				, attrs : {
 					fill : "#0088db" 
-					, stroke : "#fff"
+					, stroke : "#000000"
 					, "stroke-width" : 0
 					, "stroke-linejoin" : "round"
 				}
 				, attrsHover : {
-					"stroke-width" : 3
+					"stroke-width" : 0
 					, animDuration : 300
 				}
 				, text : {
