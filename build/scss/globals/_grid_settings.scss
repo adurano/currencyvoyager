@@ -1,8 +1,8 @@
 @import "../libs/neat/neat-helpers"; // or "neat-helpers" when in Rails
 
 // Change the grid settings
-$grid-columns: 12;
-$max-width: em(1200);
+$grid-columns: 14;
+$max-width: em(1600);
 
 // Visual Grid Happy Helper (visualize the grid)
 $visual-grid: true;
@@ -10,6 +10,6 @@ $visual-grid-index: front;
 $visual-grid-opacity: 0.2;
 
 //Media Quaries
-$small      :new-breakpoint(max-width 640px,  12);
-$medium     :new-breakpoint(min-width 641px max-width 899px,  12);
-$big        :new-breakpoint(min-width 900px,  12);
+$small      :new-breakpoint(max-width 640px,  14);
+$medium     :new-breakpoint(min-width 641px max-width 899px,  14);
+$big        :new-breakpoint(min-width 900px,  14);

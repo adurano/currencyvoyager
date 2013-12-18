@@ -14,8 +14,10 @@ $(document).ready(function(){
 	var country_Code;
 
 
-
-
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
 
 
 
@@ -29,7 +31,7 @@ $(document).ready(function(){
 			countries = countries.countries;
 
 			for (var i = 0; i < countries.length; i++) {
-				$(".countrySelector").append("<option value='"+countries[i].countryCode+"'>"+countries[i].name+"</option>");
+				$(".countrySelector").append("<li value='"+countries[i].countryCode+"'>"+countries[i].name+"</li>");
 
 			}
 
@@ -100,11 +102,15 @@ $(document).ready(function(){
 					console.log(country);
 
 
+
+				
+
+
 					$.getJSON( "currency/"+country.currencyCode+"/"+country.currencyCode+".json", function( currency ) {
 					
 						//console.log(currency);
-						
-						$("#countryName").html(country.name);
+						var countryName = toTitleCase(country.name);
+						$("#countryName").html(countryName);
 
 						$(".noteselect").empty();
 						for (var b = 0; b < currency.notes.length; b++) {
@@ -135,6 +141,23 @@ $(document).ready(function(){
 						$(".currencySymbol").html(currency.symbol);
 						$(".flag").attr("src", "countries/"+country.countryCode+".png");
 						$(".notebio").html(currency.bio);
+
+						$.getJSON( "http://openexchangerates.org//api/latest.json?app_id=593018fa7c1944e285e2a4097c5040b8", function( exchange ) {
+
+							//var thisthing = ;
+							//var rates = exchange.rates[country.currencyCode];
+
+							
+							//console.log(country.currencyCode + " " + rates);
+
+
+							var multirates = [exchange.rates[country.currencyCode], exchange.rates["USD"], exchange.rates["EUR"]];
+							
+							multirates.sort();
+							console.log(multirates);
+
+
+						});
 
 
 

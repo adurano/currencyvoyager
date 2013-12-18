@@ -124,13 +124,15 @@
     </header>
 
     <nav id="fixedbar">
-        <ul id="fixednav">
-            <li class="logo2"></li>
-            <li id="countryName">Costa Rica</li>
-            <li class="currencyname">The Colon</li>
-            <li><select class='countrySelector'></select></li>
-            <li href="#map" id="backtomap"></li>
-        </ul>
+        <div id="fixednav">
+            <div id="navcontainer">
+                <div id="logo3"></div>
+                <h3 id="countryName">Select a Country</h3>
+                <h3 class="currencyname"></h3>
+                <div class="select"><ul class='countrySelector'></ul></div>
+                <div href="#map" id="backtomap"></div>
+            </div>
+        </div>
     </nav>
 
     
@@ -146,16 +148,16 @@
     </section>
 
     <hr id="scrollto">
-
+<section class="container">
     <section id="map" style="overflow: hidden;">
         <div class="mapcontainer" class="smoothScroll">
-            <div class="map">Alternative content</div>
+            <div class="map"></div>
         </div>
     </section>
 
- <section class="container">
+ 
         <!-- this section is for the info -->
-        
+    <section id="infosection">  
         <div class="infocol">
             
             <div class="icons">
@@ -178,9 +180,9 @@
                 <h5 class = "infolabel">Exchange Rate: </h5>
                 <div class="chart">
 
-                    <div class="bar" id="bar1"><p>USD</p></div>
-                    <div class="bar" id="bar2"><p>EUR</p></div>
-                    <div class="bar" id="bar3"><p>CRN</p></div>
+                    <div class="bar" id="bar1"><p class="makemecurcode">USD</p></div>
+                    <div class="bar" id="bar2"><p>USD</p></div>
+                    <div class="bar" id="bar3"><p>EUR</p></div>
                     
 
                 </div>
@@ -202,7 +204,7 @@
 
         </div>
     </section>
-    
+  </section>  
 
     <section>
         <div class="container" id="notessection">
@@ -211,9 +213,7 @@
 
             <!--country name-->
             <ul class="noteselect">
-                <li><a class = "currentNoteIndicator"data-key="0" href="#">&#8353;2Mil</a></li>
-                <li><a data-key="1" href="#">&#8353;4Mil</a></li>
-                <li><a data-key="2" href="#">&#8353;10Mil</a></li>
+               
             </ul>
             <div id="notearrows">
                 <a href="#" class="prevbutton notearrow"><</a>
@@ -223,58 +223,7 @@
         <div class="noteholder">
             <div class="noteposition container">
                 <ul class="notes">
-                    <li class='notegroup' data-key="0">
-                        <div class ="note notefront">
-                            <img class="money" src="img/2costa2.png">
-                            <h5>Mauro Fernández Acuña</h5>
-                            <h6>Director of the Bank of Costa Rica</h6>
-                        </div>
-                        <div class ="note noteback">
-                            <img class="money" src="img/2costa.png">
-                            <h5>Bull Shark</h5>
-                            <h6>Bull sharks are typically solitary hunters</h6>
-                        </div>
-                        
-                    </li>
-                    <li class='notegroup' data-key="1">
-                        <div class ="note notefront">
-                            <img class="money" src="img/2costa2.png">
-                            <h5>Mauro Fernández Acuña</h5>
-                            <h6>Director of the Bank of Costa Rica</h6>
-                        </div>
-                        <div class ="note noteback">
-                            <img class="money" src="img/2costa.png">
-                            <h5>Bull Shark</h5>
-                            <h6>Bull sharks are typically solitary hunters</h6>
-                        </div>
-                        
-                    </li>
-                     <li class='notegroup' data-key="2">
-                        <div class ="note notefront">
-                            <img class="money" src="img/2costa2.png">
-                            <h3>Mauro Fernández Acuña</h3>
-                            <h6>Director of the Bank of Costa Rica</h6>
-                        </div>
-                        <div class ="note noteback">
-                            <img class="money" src="img/2costa.png">
-                            <h3>Bull Shark</h3>
-                            <h6>Bull sharks are typically solitary hunters</h6>
-                        </div>
-                        
-                    </li>
-                    <li class='notegroup' data-key="3">
-                        <div class ="note notefront">
-                            <img class="money" src="img/2costa2.png">
-                            <h3>Mauro Fernández Acuña</h3>
-                            <h6>Director of the Bank of Costa Rica</h6>
-                        </div>
-                        <div class ="note noteback">
-                            <img class="money" src="img/2costa.png">
-                            <h3>Bull Shark</h3>
-                            <h6>Bull sharks are typically solitary hunters</h6>
-                        </div>
-                        
-                    </li>
+                   
 
                 </ul>
             </div>
