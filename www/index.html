@@ -48,6 +48,12 @@
                     }
             });*/
 
+            $(window).scroll(function(){
+            $("#fixedbar").css("top",Math.max(0,680-$(this).scrollTop()));
+            });
+
+            
+
             $(window).resize(function(){ $("#promo").css("height", $(window).height()); });
         
             $("#promo").css("height", $(window).height());
@@ -121,7 +127,17 @@
                 <li><a href="#"></a></li>
             </ul>
         </nav>
-    </header>
+    </header>    
+
+    <!--<div class="contents"></div>-->
+
+    <section id="promo" style="height: auto;">
+        <h1 class="logo"></h1>
+        <!-- this is the intro -->
+        <h3 id="hello">Begin your voyage & start exploring money from around the world now.</h3>
+
+        <a href="#scrollto"><h3 id="downwego"></h3></a>
+    </section>
 
     <nav id="fixedbar">
         <div id="fixednav">
@@ -137,18 +153,6 @@
             </div>
         </div>
     </nav>
-
-    
-
-    <!--<div class="contents"></div>-->
-
-    <section id="promo" style="height: auto;">
-        <h1 class="logo"></h1>
-        <!-- this is the intro -->
-        <h3 id="hello">Begin your voyage & start exploring money from around the world now.</h3>
-
-        <a href="#scrollto"><h3 id="downwego"></h3></a>
-    </section>
 
     <hr id="scrollto">
 <section class="container">
@@ -168,7 +172,7 @@
                 <h2 class="icon currencySymbol"> &#8353 </h2>
 
             </div>
-            <hr>
+            
                 <br>
                 <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>
 
@@ -342,7 +346,7 @@ $(document).ready(function(){
 
 
 
-    $('#navigation a, #fixedbar a').on('click', function(e) {
+/*    $('#navigation a, #fixedbar a').on('click', function(e) {
     e.preventDefault();
     });
   
@@ -357,7 +361,8 @@ $(document).ready(function(){
       $('#fixedbar').fadeOut(250);
     }
     });
-  
+
+*/
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
 
