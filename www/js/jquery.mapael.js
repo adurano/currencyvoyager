@@ -755,7 +755,7 @@
 				}
 				, attrsHover : {
 					fill : "#FFFFFF"
-					, stroke : "#777777"
+					, stroke : "#FFFFFF"
 					//#59c4fc light blue
 					, animDuration : 200
 				}

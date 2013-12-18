@@ -92,7 +92,7 @@ $(document).ready(function(){
 
 			for (var i = 0; i < countries.length; i++) {
 
-				console.log(countries[i].countryCode);
+				//console.log(countries[i].countryCode);
 				if(countries[i].countryCode.toString() == country_code){
 					console.log("ssususdfeufnasdjnf");
 					country=countries[i];
