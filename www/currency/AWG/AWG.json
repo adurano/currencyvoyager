@@ -1,0 +1,153 @@
+{
+	"currencyCode" : "AWG",
+	"currencyName" : "The florin",
+	"inflationRate" : "4.4%",
+	"fraction"	: "cent",
+	"symbol"	: "&#402;",
+	"countries" : ["Aruba"],
+	"bio" : "The florin was introduced in 1986, replacing the Netherlands Antillean guilder at par.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "5 florin",
+	 	"shortname" : "5 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5florin_a.png",
+	 			"heading" : "Turtuga blanco",
+	 			"copy" : "a white, green sea turtle"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "10 florin",
+	 	"shortname" : "10 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10florin_a.png",
+	 			"heading" : "melongena melongena",
+	 			"copy" : "Caribbean crown conch",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "25 florin",
+	 	"shortname" : "25 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "25florin_a.png",
+	 			"heading" : "Crotalus durissus",
+	 			"copy" : "South American rattlesnake",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "25florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "50 florin",
+	 	"shortname" : "50 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50florin_a.png",
+	 			"heading" : "speotyto cunicularia arubensis",
+	 			"copy" : "Burrowing Owl",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "100 florin",
+	 	"shortname" : "100 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100florin_a.png",
+	 			"heading" : "Pleurodema brachyops",
+	 			"copy" : "The Colombian Four-eyed Frog or Sapito Lipon",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "500 florin",
+	 	"shortname" : "500 florin",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "500florin_a.png",
+	 			"heading" : "Epinephelus morio",
+	 			"copy" : "Red grouper",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "500florin_b.png",
+	 			"heading" : "Note",
+	 			"copy" : "designed by Aruban artist Evelino Fingal",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

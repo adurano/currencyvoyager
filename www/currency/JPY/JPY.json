@@ -1,0 +1,105 @@
+{
+	"currencyCode" : "JPY",
+	"currencyName" : "Yen",
+	"inflationRate" : "0.3%",
+	"fraction"	: "Yen",
+	"symbol"	: "&#165;",
+	"countries" : ["Japan"],
+	"bio" : "The yen is the second largest reserve currency as well as the second most traded currency in the world after the United States dollar.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "1000 yen",
+	 	"shortname" : "1000 yen",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "1000yen_a.png",
+	 			"heading" : "Noguchi Hideyo",
+	 			"copy" : "Japanese bacteriologist"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "1000yen_b.png",
+	 			"heading" : "Mt. Fuji, Lake Motosu and Cherry blossoms",
+	 			"copy" : ""
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "2000 yen",
+	 	"shortname" : "2000 yen",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "2000yen_a.png",
+	 			"heading" : "Shurei-mon",
+	 			"copy" : "a gate in the Shuri neighborhood of Naha.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "2000yen_b.png",
+	 			"heading" : "Scene from the Tale of Genji",
+	 			"copy" : "& portrait of Murasaki Shikibu",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "5000 yen",
+	 	"shortname" : "5000 yen",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5000yen_a.png",
+	 			"heading" : "Higuchi Ichiyō",
+	 			"copy" : "Japan´s first prominent woman writer of modern times.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5000yen_b.png",
+	 			"heading" : "Kakitsubata-zu",
+	 			"copy" : "Painting of Irises, a work by Ogata Kōrin",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "10000 yen",
+	 	"shortname" : "10000 yen",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10000yen_a.png",
+	 			"heading" : "Fukuzawa Yukichi",
+	 			"copy" : "Japanese author, Enlightenment writer, teacher, translator, entrepreneur and journalist",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10000yen_b.png",
+	 			"heading" : "Statue of hōō (phoenix) from Byōdō-in Temple",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

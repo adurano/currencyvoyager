@@ -45,14 +45,21 @@ position: relative;
           @include span-columns(12);
           @include shift(1);
          div, h3, select {
-            display: block;
-            float: left;
-            max-width: 600px;
+            //display: block;
+         //   float: left;
+           // max-width: 600px;
             height: 50px;
         }
+
+
+        
         h3 {
 
-            line-height: 50px;
+            
+line-height: 50px;
+             
+
+
         }
 
 
@@ -60,20 +67,29 @@ position: relative;
 
 #logo3 {
 
-    height: 100px;
-    width: 50px;
+    height: 50px;
+   // width: 50px;
     background: no-repeat url(../img/logo2.png);
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+
+    @include span-columns(1 of 12);
     
     //background: green;
 
+}
+
+.headerbit {
+
+    @include span-columns(4 of 12);
+    font-size: 2em;
 }
 
 #backtomap {
     margin-left: 1em;
     //height: 57.6px; 
     //width: 100.8px;
-    background-image: url(../img/uparrow.svg);
+   // background-image: url(../img/uparrow.svg);
 
 }
 
@@ -91,15 +107,8 @@ position: relative;
     //background-image: url(../img/templogo.png);
 }
 
-#countryName {
-    margin-left: 1em;
-    font-size: 2em;
-}
 
-.currencyname{
-    margin-left: 1em;
-    font-size: 2em;
-}
+
 
 .countrySelector {
 
@@ -114,6 +123,7 @@ position: relative;
 
 .select {
     @include span-columns(2);
+    @include shift(1);
 
     background: red;
 
@@ -328,10 +338,19 @@ position: relative;
 
 #notessection {
 
-    @include span-columns(12);
-    @include shift(1);
+    //@include outer-container;
+    //width: 85.42656% !important;
+   // @include span-columns(12);
+   // @include shift(1);
+  // margin: 0 auto;
 }
 
+#notescontrolls {
+    @include span-columns(12);
+   @include shift(1);
+
+
+}
 
 .noteselect {
     @include span-columns(8 of 12);
@@ -347,6 +366,12 @@ position: relative;
             margin: 0;
             padding: .5em;
             color: #666;
+            @include media($medium){
+
+
+                font-size: 1em;
+            }
+
             @include transition (color 0.1s ease-in 0s);
                 &:hover{
                     color:  rgba(250, 0, 0, 0.5);
@@ -388,8 +413,11 @@ position: relative;
 }
 
 .note {
-    @include span-columns(6);
+    @include span-columns(6 of 12);
     //position: relative;
+    @include media($medium) {
+        @include span-columns(12 of 12);
+  }
 }
 
 .noteholder {
@@ -422,7 +450,10 @@ position: relative;
 //@include shift(1);
     float: left;
     max-width: $max-width;
-    margin-right: 10em;
+   // margin-right: 160px;
+
+    //padding-left: 7.28672%; 
+
     //margin-left: 7.28672%; 
     position: relative;
    // lef: 7.28672%;

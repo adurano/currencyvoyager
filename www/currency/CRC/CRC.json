@@ -1,11 +1,11 @@
 {
 	"currencyCode" : "CR",
 	"currencyName" : "The Colon",
-	"inflationRate" : "2.0%",
+	"inflationRate" : "4.5%",
 	"fraction"	: "centimo",
 	"symbol"	: "&#8353;",
 	"countries" : ["Costa Rica"],
-	"bio" : "This is where the bio goes",
+	"bio" : "The economy of Costa Rica is very stable, and depends essentially on tourism, agriculture, and electronics exports.",
 	
 	"notes" : [{
 		"order" : "1",
@@ -16,14 +16,14 @@
 	 	"front" : 
 	 		{ 
 	 			"image" : "1mil_a.jpg",
-	 			"heading" : "Mauro Fernández Acuña",
-	 			"copy" : "Director of the Bank of Costa Rica"
+	 			"heading" : "Braulio Carrillo Coli",
+	 			"copy" : "Head of State of Costa Rica 1848"
 	 		},
 	 	"back" :  
 	 		{ 
 	 			"image" : "1mil_b.jpg",
-	 			"heading" : "Bull Shark",
-	 			"copy" : "Bull sharks are typically solitary hunters"
+	 			"heading" : "White-tailed deer",
+	 			"copy" : "Guanacaste tree"
 			}
 	},
 	{
@@ -35,24 +35,115 @@
 	 	"front" : 
 	 		{ 
 	 			"image" : "2mil_a.jpg",
-	 			"heading" : "hamilton",
-	 			"copy" : "A couple sentences of information discussing hamilton",
+	 			"heading" : "Mauro Fernández Acuña",
+	 			"copy" : "",
 	 			"info" 	: [
-	 				"This bill features Alexander Hamilton",
-	 				"Some Other Detail",
-	 				"it's the front"
 	 			]
 	
 	 		},
 	 	"back" :  
 	 		{ 
 	 			"image" : "2mil_b.jpg",
-	 			"heading" : "treasurey",
-	 			"copy" : "Whoa! Crazy shark",
+	 			"heading" : "Bull shark",
+	 			"copy" : "Coral reef",
 	 			"info" 	: [
-	 				"This bill features the federal reserve",
-	 				"Some Other Detail",
-	 				"it's the back"
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "5 Mil",
+	 	"shortname" : "5 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5mil_a.jpg",
+	 			"heading" : "José Figueres Ferrer",
+	 			"copy" : "A couple sentences of information discussing hamilton",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5mil_b.jpg",
+	 			"heading" : "White-headed Capuchin",
+	 			"copy" : "Mangrove swamp",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "10 Mil",
+	 	"shortname" : "10 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10mil_a.jpeg",
+	 			"heading" : "José Figueres Ferrer",
+	 			"copy" : "Abolition of the Army",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10mil_b.png",
+	 			"heading" : "Three-toed sloth",
+	 			"copy" : "Rainforest (Bosque Lluvioso)",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "20 Mil",
+	 	"shortname" : "20 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20mil_a.jpg",
+	 			"heading" : "Maria Isabel Carvajal (alias Carmen Lyra)",
+	 			"copy" : "A couple sentences of information discussing hamilton",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20mil_b.png",
+	 			"heading" : "Volcano Hummingbird",
+	 			"copy" : "Senecio oerstedianus sunflower, and coffee plants",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "50 Mil",
+	 	"shortname" : "50 Mil",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50mil_a.jpg",
+	 			"heading" : "Ricardo Jimenez Oreamuno",
+	 			"copy" : "Supreme Court (San José)",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50mil_b.jpg",
+	 			"heading" : "Morpho butterfly",
+	 			"copy" : "Fog forest (Bosque Nuboso), parasol mushroom, Bromelia flower, ",
+	 			"info" 	: [
 	 			]
 	
 			}

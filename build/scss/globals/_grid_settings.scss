@@ -8,6 +8,7 @@ $max-width: em(1600);
 $visual-grid: false;
 $visual-grid-index: front;
 $visual-grid-opacity: 0.2;
+$visual-grid-color: red;
 
 //Media Quaries
 $small      :new-breakpoint(max-width 640px,  14);

@@ -1,0 +1,127 @@
+{
+	"currencyCode" : "SEK",
+	"currencyName" : "Swedish krona",
+	"inflationRate" : "0.3%",
+	"fraction"	: "Öre",
+	"symbol"	: "Kr",
+	"countries" : ["Sweden"],
+	"bio" : "The economy of Sweden is a developed export-oriented diverse economy aided by timber, hydropower and iron ore.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "20 kr",
+	 	"shortname" : "20 kr",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20kr_a.png",
+	 			"heading" : "Selma Lagerlöf",
+	 			"copy" : "She was the first female writer to win the Nobel Prize in Literature."
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20kr_b.png",
+	 			"heading" : "Nils Holgersson flying over Scania",
+	 			"copy" : "Illustration from the book 'The Wonderful Adventures of Nils'."
+			}
+	},	{
+		"order" : "2",
+	 	"name" : "50 kr",
+	 	"shortname" : "50 kr",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50kr_a.png",
+	 			"heading" : "Jenny Lind",
+	 			"copy" : "Swedish opera singer, often known as the 'Swedish Nightingale'. ",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50kr_b.png",
+	 			"heading" : "Key harp and its tonal range",
+	 			"copy" : "A traditional Swedish musical instrument.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "3",
+	 	"name" : "100 kr",
+	 	"shortname" : "100 kr",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100kr_a.png",
+	 			"heading" : "Carl von Linné",
+	 			"copy" : "Swedish botanist, physician, and zoologist, who laid the foundations for the modern biological naming scheme of binomial nomenclature.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100kr_b.png",
+	 			"heading" : "Bee pollinating a flower",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "500 kr",
+	 	"shortname" : "500 kr",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "500kr_a.png",
+	 			"heading" : "Charles XI",
+	 			"copy" : "King of Sweden from 1660 until his death, in a period in Swedish history known as the Swedish empire (1611–1718).",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "500kr_b.png",
+	 			"heading" : "Christopher Polhem",
+	 			"copy" : "Swedish scientist, inventor and industrialist.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "1000 kr",
+	 	"shortname" : "1000 kr",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "1000kr_a.png",
+	 			"heading" : "Gustav Vasa",
+	 			"copy" : "King of Sweden from 1523 until his death 1560.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "1000kr_b.png",
+	 			"heading" : "A harvest picture from Olaus Magnus' Description",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

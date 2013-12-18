@@ -1,0 +1,177 @@
+{
+	"currencyCode" : "EUR",
+	"currencyName" : "Euro",
+	"inflationRate" : "1.8%",
+	"fraction"	: "cent",
+	"symbol"	: "&#8364;",
+	"countries" : [" Austria, Belgium, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Malta, the Netherlands, Portugal, Slovakia, Slovenia, and Spain."],
+	"bio" : "The euro is the second largest reserve currency as well as the second most traded currency in the world after the United States dollar.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "5 euro",
+	 	"shortname" : "5 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5euro_a.png",
+	 			"heading" : "Classical",
+	 			"copy" : "Architectural examples"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5euro_b.png",
+	 			"heading" : "5th Century",
+	 			"copy" : "Architectural examples"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "10 euro",
+	 	"shortname" : "10 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10euro_a.png",
+	 			"heading" : "Romanesque",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10euro_b.png",
+	 			"heading" : "11–12th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "20 euro",
+	 	"shortname" : "20 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20euro_a.png",
+	 			"heading" : "Gothic",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20euro_b.png",
+	 			"heading" : "12–14th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "50 euro",
+	 	"shortname" : "50 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50euro_a.png",
+	 			"heading" : "Renaissance",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50euro_b.png",
+	 			"heading" : "15–16th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "100 euro",
+	 	"shortname" : "100 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100euro_a.png",
+	 			"heading" : "Baroque & Rococo",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100euro_b.png",
+	 			"heading" : "17–18th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "200 euro",
+	 	"shortname" : "200 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "200euro_a.png",
+	 			"heading" : "The age of iron and glass",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "200euro_b.png",
+	 			"heading" : "17–18th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "500 euro",
+	 	"shortname" : "500 euro",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "500euro_a.png",
+	 			"heading" : "Modern 20th century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "500euro_b.png",
+	 			"heading" : "20–21th Century",
+	 			"copy" : "Architectural examples",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

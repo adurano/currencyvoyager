@@ -11,13 +11,9 @@
 { "countryCode" : "AG", "name" : "ANTIGUA AND BARBUDA", "currencyCode" : "XCD", "GDP" : "1.1", "debt" : "", "bigmac" : ""},
 { "countryCode" : "AR", "name" : "ARGENTINA", 		"currencyCode" : "ARS", "GDP" : "475", "debt" : "", "bigmac" : ""},
 { "countryCode" : "AM", "name" : "ARMENIA", 		"currencyCode" : "AMD", "GDP" : "10", "debt" : "", "bigmac" : ""},
-
-{ "countryCode" : "AW", "name" : "ARUBA", 			"currencyCode" : "AWG", "GDP" : "2.5", "debt" : "46.3", "bigmac" : "2.77"},
-
-{ "countryCode" : "AU", "name" : "AUSTRALIA", 		"currencyCode" : "AUD", "GDP" : "1.5", "debt" : "29.3", "bigmac" : "4.62"},
-
-{ "countryCode" : "AT", "name" : "AUSTRIA", 		"currencyCode" : "EUR", "GDP" : "395.5", "debt" : "74.6", "bigmac" : "4.66"},
-
+{ "countryCode" : "AW", "name" : "ARUBA", 			"currencyCode" : "AWG", "GDP" : "2.5", "debt" : "", "bigmac" : ""},
+{ "countryCode" : "AU", "name" : "AUSTRALIA", 		"currencyCode" : "AUD", "GDP" : "1.5", "debt" : "", "bigmac" : ""},
+{ "countryCode" : "AT", "name" : "AUSTRIA", 		"currencyCode" : "EUR", "GDP" : "398", "debt" : "", "bigmac" : ""},
 { "countryCode" : "AZ", "name" : "AZERBAIJAN", 		"currencyCode" : "AZN", "GDP" : "68", "debt" : "", "bigmac" : ""},
 { "countryCode" : "BS", "name" : "BAHAMAS", 		"currencyCode" : "BSD", "GDP" : "8", "debt" : "", "bigmac" : ""},
 { "countryCode" : "BH", "name" : "BAHRAIN", 		"currencyCode" : "BHD", "GDP" : "27", "debt" : "", "bigmac" : ""},
@@ -56,9 +52,7 @@
 { "countryCode" : "CG", "name" : "CONGO", 			"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CD", "name" : "CONGO, THE DEMOCRATIC REPUBLIC OF THE", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CK", "name" : "COOK ISLANDS", 	"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-
-{ "countryCode" : "CR", "name" : "COSTA RICA", 		"currencyCode" : "CRC", "GDP" : "58.6", "debt" : "47.7", "bigmac" : "2.38"},
-
+{ "countryCode" : "CR", "name" : "COSTA RICA", 		"currencyCode" : "CRC", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CI", "name" : "CÔTE D'IVOIRE", 	"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "HR", "name" : "CROATIA", 		"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CU", "name" : "CUBA", 			"currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
@@ -116,9 +110,7 @@
 { "countryCode" : "IL", "name" : "ISRAEL", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "IT", "name" : "ITALY", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "JM", "name" : "JAMAICA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-
-{ "countryCode" : "JP", "name" : "JAPAN", "currencyCode" : "JPY", "GDP" : "5.964", "debt" : "229.77", "bigmac" : "3.2"},
-
+{ "countryCode" : "JP", "name" : "JAPAN", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "JE", "name" : "JERSEY", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "JO", "name" : "JORDAN", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "KZ", "name" : "KAZAKHSTAN", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
@@ -150,7 +142,7 @@
 { "countryCode" : "MR", "name" : "MAURITANIA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MU", "name" : "MAURITIUS", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "YT", "name" : "MAYOTTE", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-{ "countryCode" : "MX", "name" : "MEXICO", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
+{ "countryCode" : "MX", "name" : "MEXICO", "currencyCode" : "MXN", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "FM", "name" : "MICRONESIA, FEDERATED STATES OF", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MD", "name" : "MOLDOVA, REPUBLIC OF", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MC", "name" : "MONACO", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
@@ -165,9 +157,7 @@
 { "countryCode" : "NP", "name" : "NEPAL", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "NL", "name" : "NETHERLANDS", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "NC", "name" : "NEW CALEDONIA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-
-{ "countryCode" : "NZ", "name" : "NEW ZEALAND", "currencyCode" : "NZD", "GDP" : "181", "debt" : "41.8", "bigmac" : "4.3"},
-
+{ "countryCode" : "NZ", "name" : "NEW ZEALAND", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "NI", "name" : "NICARAGUA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "NE", "name" : "NIGER", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "NG", "name" : "NIGERIA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
@@ -223,9 +213,7 @@
 { "countryCode" : "SR", "name" : "SURINAME", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "SJ", "name" : "SVALBARD AND JAN MAYEN", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "SZ", "name" : "SWAZILAND", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-
-{ "countryCode" : "SE", "name" : "SWEDEN", "currencyCode" : "SEK", "GDP" : "399.4", "debt" : "32", "bigmac" : "6.16"},
-
+{ "countryCode" : "SE", "name" : "SWEDEN", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "CH", "name" : "SWITZERLAND", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "SY", "name" : "SYRIAN ARAB REPUBLIC", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "TW", "name" : "TAIWAN, PROVINCE OF CHINA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},

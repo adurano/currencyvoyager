@@ -42,20 +42,22 @@ function toTitleCase(str)
 		//resizes the container for the currency based on the width of the page container
 	var resizeCurency = function() {
 
-		containerWidth = $("#notessection").width();
+		containerWidth = $("#notescontrolls").width();
 		$(".notegroup").width(containerWidth);
+		var padleft = $("#notescontrolls").css("margin-left");
 
-		marginRight = 160;
+		marginRight = parseInt(padleft, 10);
 
-		$(".notegroup").css( "margin-right", "marginRight");
+		//$(".notegroup").css( "margin-right", "marginRight");
 
-		
+		$(".notegroup").css( "padding-left", padleft);
+		$(".notegroup").css( "padding-right", padleft);
 	
 	}
 		//calculates and posistions notes based on which note key should be shown
 	var positionNotes = function() {
 
-		var notePos = noteKey * (containerWidth + marginRight);
+		var notePos = noteKey * (containerWidth + (marginRight*2));
 
 		notePos = notePos + "px";
 
@@ -141,6 +143,7 @@ function toTitleCase(str)
 						$(".currencySymbol").html(currency.symbol);
 						$(".flag").attr("src", "countries/"+country.countryCode+".png");
 						$(".notebio").html(currency.bio);
+						$(".infaltionValue").html(currency.inflationRate);
 
 						$.getJSON( "http://openexchangerates.org//api/latest.json?app_id=593018fa7c1944e285e2a4097c5040b8", function( exchange ) {
 
@@ -164,7 +167,10 @@ function toTitleCase(str)
 						//updates to global data
 						maxKey = currency.notes.length-1;
 						noteKey = 0;
+						resizeCurency();
 						positionNotes();
+						resizeCurency();
+
 					});
 
 
@@ -202,6 +208,9 @@ function toTitleCase(str)
 	$( window ).resize(function() {
 
 		resizeCurency();
+		positionNotes();
+		resizeCurency();
+					
 
 	});
 

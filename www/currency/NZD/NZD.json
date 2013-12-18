@@ -1,0 +1,128 @@
+{
+	"currencyCode" : "NZD",
+	"currencyName" : "New Zealand dollar",
+	"inflationRate" : "0.7%",
+	"fraction"	: "Cent",
+	"symbol"	: "&#36;",
+	"countries" : ["New Zealand"],
+	"bio" : "New Zealand has a market economy that depends greatly on international trade, mainly with Australia, the European Union, the United States, China, South Korea and Japan.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "5 nz",
+	 	"shortname" : "5 nz",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5nz_a.png",
+	 			"heading" : "Sir Edmund Percival Hillary",
+	 			"copy" : "New Zealand mountaineer, explorer and philanthropist."
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5nz_b.png",
+	 			"heading" : "Hoiho",
+	 			"copy" : "The Yellow-eyed Penguin (Megadyptes antipodes) is a penguin native to New Zealand."
+			}
+	},	{
+		"order" : "2",
+	 	"name" : "10 nz",
+	 	"shortname" : "10 nz",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10nz_a.png",
+	 			"heading" : "Kate Sheppard",
+	 			"copy" : "the most prominent member of the movement to allow women to vote in New Zealand. ",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10nz_b.png",
+	 			"heading" : "Whio (Blue Duck)",
+	 			"copy" : "Parahebe catarractae Blechnum fern.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "3",
+	 	"name" : "20 nz",
+	 	"shortname" : "20 nz",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20nz_a.png",
+	 			"heading" : "Elizabeth II, Queen of New Zealand
+",
+	 			"copy" : "New Zealand Parliament Buildings",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20nz_b.png",
+	 			"heading" : "Karearea, New Zealand falcon",
+	 			"copy" : "Marlborough rock daisy Flowering red tussock Mount Tapuaenuku",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "50 nz",
+	 	"shortname" : "50 nz",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50nz_a.png",
+	 			"heading" : "Sir Apirana Ngata",
+	 			"copy" : "Porourangi Meeting House.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50nz_b.png",
+	 			"heading" : "Kōkako (Blue wattled crow)",
+	 			"copy" : "Conifer broadleaf forest scene, Supplejack (kareao) Sky-blue mushroom",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "100 nz",
+	 	"shortname" : "100 nz",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100nz_a.png",
+	 			"heading" : "Lord Rutherford of Nelson",
+	 			"copy" : "& Nobel Prize medal",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100nz_b.png",
+	 			"heading" : "Mohua (Yellowhead)",
+	 			"copy" : "Beech forest scene, Red Beech & South Island lichen moth",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

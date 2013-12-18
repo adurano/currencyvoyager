@@ -168,22 +168,33 @@ body {
   #navcontainer:last-child {
     margin-right: 0; }
   #navcontainer div, #navcontainer h3, #navcontainer select {
-    display: block;
-    float: left;
-    max-width: 600px;
     height: 50px; }
   #navcontainer h3 {
     line-height: 50px; }
 
 #logo3 {
-  height: 100px;
-  width: 50px;
+  height: 50px;
   background: no-repeat url(../img/logo2.png);
-  background-size: cover; }
+  background-size: contain;
+  background-position: center;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%; }
+  #logo3:last-child {
+    margin-right: 0; }
+
+.headerbit {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  font-size: 2em; }
+  .headerbit:last-child {
+    margin-right: 0; }
 
 #backtomap {
-  margin-left: 1em;
-  background-image: url(../img/uparrow.svg); }
+  margin-left: 1em; }
 
 .logo2 {
   height: 100px;
@@ -192,14 +203,6 @@ body {
   background-size: cover;
   display: block;
   margin: 0 auto; }
-
-#countryName {
-  margin-left: 1em;
-  font-size: 2em; }
-
-.currencyname {
-  margin-left: 1em;
-  font-size: 2em; }
 
 .countrySelector {
   height: 0px;
@@ -210,6 +213,7 @@ body {
   display: block;
   margin-right: 2.01406%;
   width: 12.55938%;
+  margin-left: 7.28672%;
   background: red; }
   .select:last-child {
     margin-right: 0; }
@@ -391,13 +395,13 @@ body {
   padding-top: 30px; }
 
 /* --------------- Note viewer Styles ---- */
-#notessection {
+#notescontrolls {
   float: left;
   display: block;
   margin-right: 2.01406%;
   width: 85.42656%;
   margin-left: 7.28672%; }
-  #notessection:last-child {
+  #notescontrolls:last-child {
     margin-right: 0; }
 
 .noteselect {
@@ -419,6 +423,9 @@ body {
       -webkit-transition: color 0.1s ease-in 0s;
       -moz-transition: color 0.1s ease-in 0s;
       transition: color 0.1s ease-in 0s; }
+      @media screen and (min-width: 641px) and (max-width: 899px) {
+        .noteselect li a {
+          font-size: 1em; } }
       .noteselect li a:hover {
         color: rgba(250, 0, 0, 0.5);
         border-bottom: 2px solid rgba(250, 0, 0, 0.5); }
@@ -456,10 +463,18 @@ body {
 .note {
   float: left;
   display: block;
-  margin-right: 2.01406%;
-  width: 41.70625%; }
+  margin-right: 2.35765%;
+  width: 48.82117%; }
   .note:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 641px) and (max-width: 899px) {
+    .note {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .note:last-child {
+        margin-right: 0; } }
 
 .noteholder {
   margin-bottom: 1em;
@@ -478,7 +493,6 @@ body {
 .notegroup {
   float: left;
   max-width: 100em;
-  margin-right: 10em;
   position: relative; }
 
 #countryName {

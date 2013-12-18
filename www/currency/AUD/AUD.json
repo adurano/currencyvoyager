@@ -1,0 +1,129 @@
+{
+	"currencyCode" : "AUD",
+	"currencyName" : "Australian dollar",
+	"inflationRate" : "1.8%",
+	"fraction"	: "cent",
+	"symbol"	: "&#36;",
+	"countries" : ["Australia"],
+	"bio" : "As of 2011, the Australian dollar is the 5th most traded currency in the world, accounting for 7.6% of the world's daily share.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "5 aud",
+	 	"shortname" : "5 aud",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5aud_a.jpg",
+	 			"heading" : "Queen Elizabeth II",
+	 			"copy" : "a white, green sea turtle"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5aud_b.jpg",
+	 			"heading" : "Parliament House",
+	 			"copy" : "and old Parliament House"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "10 aud",
+	 	"shortname" : "10 aud",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10aud_a.jpg",
+	 			"heading" : "Banjo Paterson",
+	 			"copy" : "Australian bush poet, journalist and author.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10aud_b.jpg",
+	 			"heading" : "Dame Mary Gilmore",
+	 			"copy" : "Australian socialist poet and journalist",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "20 aud",
+	 	"shortname" : "20 aud",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20aud_a.png",
+	 			"heading" : "Mary Reibey",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20aud_b.png",
+	 			"heading" : "Reverend John Flynn",
+	 			"copy" : "Australian Presbyterian minister",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "50 aud",
+	 	"shortname" : "50 aud",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50aud_a.png",
+	 			"heading" : "David Unaipon",
+	 			"copy" : "Indigenous Australian, a preacher, inventor and writer.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50aud_b.png",
+	 			"heading" : "Edith Cowan",
+	 			"copy" : "the first woman elected to an Australian parliament.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "100 aud",
+	 	"shortname" : "100 aud",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100aud_a.png",
+	 			"heading" : "General Sir John Monash",
+	 			"copy" : "Australian military commander in the First World War.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100aud_b.png",
+	 			"heading" : "Dame Nellie Melba",
+	 			"copy" : "Australian operatic soprano.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}
