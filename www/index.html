@@ -50,7 +50,7 @@
 
             $(window).resize(function(){ $("#promo").css("height", $(window).height()); });
         
-             $("#promo").css("height", $(window).height());
+            $("#promo").css("height", $(window).height());
 
             $("#graph").click(function(e){
                 console.log(e);
@@ -128,7 +128,7 @@
             <li class="logo2"></li>
             <li id="countryName">Costa Rica</li>
             <li class="currencyname">The Colon</li>
-            <li><select class='countrySelector'></select>
+            <li><select class='countrySelector'></select></li>
             <li href="#map" id="backtomap"></li>
         </ul>
     </nav>
@@ -144,9 +144,6 @@
 
         <a href="#scrollto"><h3 id="downwego"></h3></a>
     </section>
-
-    
-
  <section class="container">
         <!-- this section is for the info -->
         
@@ -312,13 +309,15 @@ $(document).ready(function(){
             defaultArea: {
                 attrs: {
                     fill: "#666666",
-                    stroke: "#666666" ,
+                    stroke: "#FFFFFF" ,
                     cursor: "pointer"
                 },
                 attrsHover: {
-                    animDuration: 0,
-                    fill: "#8fdce5",
+                    animDuration: 300,
+                    fill: "rgba(143, 220, 229, 0.8)",
+                    stroke: "#FFFFFF"
                 },
+         
                 text: {
                     attrs: {
                         cursor: "pointer",
@@ -329,15 +328,19 @@ $(document).ready(function(){
                         animDuration: 0
                     }
                 },
+                
 
                 /* add hover --> change country & currency name */
                 eventHandlers: {
                     click: function (e, id, mapElem, textElem) {
                        
                         getCurrency(id);
+
                         var newData = {
-                            'areas': {}
+                            'areas': {
+                            }
                            // console.log(id);
+
 
                         };
                         if (mapElem.originalAttrs.fill == "#5ba4ff") {

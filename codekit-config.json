@@ -200,17 +200,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min-ck.js",
-      "fileType" : 64
-    },
     "\/build\/scss\/libs\/bourbon\/helpers\/_radial-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -222,6 +211,17 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_radial-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/backend_dev\/js\/jquery-jvectormap-1.2.2.min-ck.js",
+      "fileType" : 64
     },
     "\/build\/scss\/libs\/bourbon\/css3\/_border-radius.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -602,18 +602,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/build\/scss\/libs\/neat\/grid\/_media.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_media.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_media.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_hide-text.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -623,6 +611,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_hide-text.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/grid\/_media.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_media.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_media.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -686,18 +686,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/grid\/_span-columns.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_span-columns.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_span-columns.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -707,6 +695,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_image-rendering.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/grid\/_span-columns.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_span-columns.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_span-columns.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -733,18 +733,6 @@
       "initialSize" : 53645,
       "fileType" : 4096
     },
-    "\/build\/scss\/libs\/bourbon\/css3\/_background.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css3\/_background.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_background.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -754,6 +742,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_keyframes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/css3\/_background.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css3\/_background.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_background.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -768,6 +768,17 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_compact.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/www\/worldmap-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/worldmap-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/worldmap-ck-ck.js",
+      "fileType" : 64
     },
     "\/build\/scss\/globals\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -864,6 +875,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/build\/scss\/libs\/bourbon\/functions\/_modular-scale.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/functions\/_modular-scale.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_modular-scale.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/build\/js\/libs\/smoothscroll.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -884,18 +907,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_private.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/build\/scss\/libs\/bourbon\/functions\/_modular-scale.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/functions\/_modular-scale.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_modular-scale.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -979,24 +990,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/backend_dev\/css\/jquery-jvectormap-1.2.2.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/css\/jquery-jvectormap-1.2.2.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/backend_dev\/getcurrency.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/getcurrency.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/www\/img\/costaflag.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1007,6 +1000,24 @@
       "outputAbbreviatedPath" : "\/www\/img\/costaflag.png",
       "initialSize" : 4922,
       "fileType" : 8192
+    },
+    "\/backend_dev\/getcurrency.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/backend_dev\/getcurrency.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/backend_dev\/css\/jquery-jvectormap-1.2.2.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/backend_dev\/css\/jquery-jvectormap-1.2.2.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/www\/currency\/CRC\/1mil_b.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1019,16 +1030,17 @@
       "initialSize" : 63548,
       "fileType" : 4096
     },
-    "\/backend_dev\/js\/scripts.js" : {
+    "\/build\/scss\/libs\/bourbon\/addons\/_position.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/backend_dev\/js\/scripts-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_position.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_position.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_linear-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1042,17 +1054,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/addons\/_position.scss" : {
+    "\/backend_dev\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_position.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_position.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/backend_dev\/js\/scripts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/backend_dev\/js\/scripts-ck.js",
+      "fileType" : 64
     },
     "\/www\/currency\/CRC\/5mil_a.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1100,18 +1111,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/css3\/_inline-block.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css3\/_inline-block.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_inline-block.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_user-select.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1121,6 +1120,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_user-select.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/bourbon\/css3\/_inline-block.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css3\/_inline-block.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_inline-block.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1247,15 +1258,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_tint-shade.scss" : {
+    "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_triangle.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_tint-shade.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_triangle.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_tint-shade.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_triangle.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1282,15 +1293,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_triangle.scss" : {
+    "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_tint-shade.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_triangle.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_tint-shade.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_triangle.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_tint-shade.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1305,6 +1316,17 @@
       "initialSize" : 84037,
       "fileType" : 8192
     },
+    "\/www\/currency\/USD\/10_front.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
+      "initialSize" : 59562,
+      "fileType" : 4096
+    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_placeholder.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1314,18 +1336,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_placeholder.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/build\/scss\/libs\/bourbon\/helpers\/_shape-size-stripper.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/helpers\/_shape-size-stripper.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_shape-size-stripper.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1387,16 +1397,17 @@
       "initialSize" : 59562,
       "fileType" : 4096
     },
-    "\/www\/currency\/USD\/10_front.jpg" : {
+    "\/build\/scss\/libs\/bourbon\/helpers\/_shape-size-stripper.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/currency\/USD\/10_front.jpg",
-      "initialSize" : 59562,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/helpers\/_shape-size-stripper.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_shape-size-stripper.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/build\/scss\/libs\/bourbon\/css3\/_font-face.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1443,17 +1454,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_radial-gradient.scss" : {
+    "\/www\/js\/maps\/world_countries-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/www\/js\/maps\/world_countries-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/js\/maps\/world_countries-ck-ck.js",
+      "fileType" : 64
     },
     "\/build\/scss\/libs\/bourbon\/addons\/_hide-text.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1479,6 +1489,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/www\/js\/scripts.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/js\/scripts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/js\/scripts-ck.js",
+      "fileType" : 64
+    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_background.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1490,17 +1511,6 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_background.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/www\/js\/maps\/world_countries-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/js\/maps\/world_countries-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/www\/js\/maps\/world_countries-ck-ck.js",
-      "fileType" : 64
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_backface-visibility.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1526,16 +1536,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/www\/js\/scripts.js" : {
+    "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/www\/js\/scripts-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/www\/img\/map.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1701,15 +1712,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/grid\/_fill-parent.scss" : {
+    "\/build\/scss\/libs\/bourbon\/addons\/_size.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_fill-parent.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_size.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_fill-parent.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_size.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1725,15 +1736,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/bourbon\/addons\/_size.scss" : {
+    "\/build\/scss\/libs\/neat\/grid\/_fill-parent.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_size.scss",
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_fill-parent.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_size.css",
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_fill-parent.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1795,29 +1806,6 @@
       "outputAbbreviatedPath" : "\/www\/js\/maps\/world_countries-ck.js",
       "fileType" : 64
     },
-    "\/www\/img\/hero.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/img\/hero.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/www\/img\/hero.png",
-      "initialSize" : 1950577,
-      "fileType" : 8192
-    },
-    "\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_html5-input-types.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/www\/currency\/USD\/5_front.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1841,6 +1829,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_html5-input-types.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/www\/img\/2costa2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1850,6 +1850,28 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/www\/img\/2costa2.png",
       "initialSize" : 297769,
+      "fileType" : 8192
+    },
+    "\/www\/worldmap.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/worldmap.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/worldmap-ck.js",
+      "fileType" : 64
+    },
+    "\/www\/img\/hero.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/hero.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/hero.png",
+      "initialSize" : 1950577,
       "fileType" : 8192
     },
     "\/www\/js\/jquery.mapael.js" : {
@@ -1875,17 +1897,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/_neat.scss" : {
+    "\/www\/img\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/www\/img\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/www\/img\/logo.png",
+      "initialSize" : 1961,
+      "fileType" : 8192
+    },
+    "\/www\/js\/Chart-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/_neat.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/css\/_neat.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/www\/js\/Chart-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/www\/js\/Chart-ck-ck.js",
+      "fileType" : 64
     },
     "\/build\/scss\/libs\/bourbon\/functions\/_transition-property-name.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1898,6 +1930,27 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_transition-property-name.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/_neat.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/_neat.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/css\/_neat.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/backend_dev\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/backend_dev\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/www\/img\/table.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1922,27 +1975,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/backend_dev\/currency\/USD\/10_back.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/currency\/USD\/10_back.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/backend_dev\/currency\/USD\/10_back.jpg",
-      "initialSize" : 34188,
-      "fileType" : 4096
-    },
-    "\/www\/js\/Chart-ck.js" : {
+    "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/www\/js\/Chart-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/www\/js\/Chart-ck-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_font-family.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1956,26 +1999,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/backend_dev\/functions.php" : {
+    "\/backend_dev\/currency\/USD\/10_back.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/backend_dev\/currency\/USD\/10_back.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/backend_dev\/currency\/USD\/10_back.jpg",
+      "initialSize" : 34188,
+      "fileType" : 4096
     },
     "\/build\/scss\/libs\/bourbon\/helpers\/_linear-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2104,18 +2137,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/scss\/libs\/neat\/grid\/_shift.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_shift.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_shift.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/build\/scss\/libs\/bourbon\/addons\/_clearfix.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2125,6 +2146,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_clearfix.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/scss\/libs\/neat\/grid\/_shift.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/grid\/_shift.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/scss\/libs\/neat\/css\/_shift.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2215,15 +2248,6 @@
       "initialSize" : 160820,
       "fileType" : 4096
     },
-    "\/backend_dev\/addcurrency.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/backend_dev\/addcurrency.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2247,6 +2271,15 @@
       "outputAbbreviatedPath" : "\/build\/scss\/libs\/bourbon\/css\/_deprecated-webkit-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/backend_dev\/addcurrency.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/backend_dev\/addcurrency.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/build\/scss\/libs\/neat\/_neat-helpers.scss" : {
       "ignoreWasSetByUser" : 0,

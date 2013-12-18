@@ -59,7 +59,7 @@
 						</ul>
 					
 						<img src="currency/<?echo $currencyCode; ?>/<?echo $backImg; ?>"class="noteback">
-						<ul>
+						<ul id="scrollto">
 						<?
 							foreach($backInfo as $info){
 							

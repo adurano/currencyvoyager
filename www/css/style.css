@@ -150,13 +150,23 @@ body {
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2); }
 
 #fixednav {
-  text-align: left;
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   display: block;
   width: 710px;
-  margin: 5 auto;
   margin-top: 1em; }
+  #fixednav:before, #fixednav:after {
+    content: " ";
+    display: table; }
+  #fixednav:after {
+    clear: both; }
   #fixednav ul {
-    list-style-type: none; }
+    list-style-type: none;
+    margin-left: 50%;
+    margin-right: 50%; }
   #fixednav li {
     display: inline; }
 
@@ -166,9 +176,9 @@ body {
 
 .logo2 {
   text-align: center;
-  height: 120px;
-  width: 120px;
-  background-image: url(../img/templogo.png);
+  height: 100px;
+  width: 250px;
+  background-image: url(../img/logo.svg);
   overflow: hidden; }
 
 #countryName {
@@ -180,18 +190,9 @@ body {
   font-size: 2em; }
 
 .countrySelector {
-  *zoom: 1;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   top: 1em;
   right: 0; }
-  .countrySelector:before, .countrySelector:after {
-    content: " ";
-    display: table; }
-  .countrySelector:after {
-    clear: both; }
 
 .logo {
   *zoom: 1;
@@ -199,9 +200,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 120px;
-  width: 120px;
-  background-image: url(../img/templogo.png);
+  height: 100px;
+  width: 250px;
+  background-image: url(../img/logo.svg);
   margin-top: 0.3em; }
   .logo:before, .logo:after {
     content: " ";
@@ -344,14 +345,17 @@ body {
   text-align: center;
   margin-bottom: 1em;
   margin-top: 0em;
+  margin-right: 0;
   line-height: 2em;
-  -webkit-transition: color 0.1s ease-in 0s;
-  -moz-transition: color 0.1s ease-in 0s;
-  transition: color 0.1s ease-in 0s; }
+  border-bottom: 2px solid white;
+  -webkit-transition: color 0.3s ease-in 0s;
+  -moz-transition: color 0.3s ease-in 0s;
+  transition: color 0.3s ease-in 0s; }
   .zoomIn:last-child {
     margin-right: 0; }
   .zoomIn:hover {
-    color: rgba(250, 0, 0, 0.5); }
+    color: rgba(250, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(250, 0, 0, 0.5); }
 
 .zoomOut {
   float: left;
@@ -363,13 +367,14 @@ body {
   text-align: center;
   line-height: 2em;
   margin-top: 0em;
-  -webkit-transition: color 0.1s ease-in 0s;
-  -moz-transition: color 0.1s ease-in 0s;
-  transition: color 0.1s ease-in 0s; }
+  -webkit-transition: color 0.3s ease-in 0s;
+  -moz-transition: color 0.3s ease-in 0s;
+  transition: color 0.3s ease-in 0s; }
   .zoomOut:last-child {
     margin-right: 0; }
   .zoomOut:hover {
-    color: rgba(250, 0, 0, 0.5); }
+    color: rgba(250, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(250, 0, 0, 0.5); }
 
 .info1 {
   height: 200px;
@@ -651,7 +656,6 @@ hr {
     text-align: center; }
 
 footer {
-  border-top: 1px solid #555;
   margin-top: 0em;
   height: auto;
   background-color: rgba(143, 220, 229, 0.8);
@@ -667,9 +671,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 120px;
-  width: 120px;
-  background-image: url(../img/templogo.png); }
+  height: 100px;
+  width: 250px;
+  background-image: url(../img/logo.svg); }
   .logo2:before, .logo2:after {
     content: " ";
     display: table; }
