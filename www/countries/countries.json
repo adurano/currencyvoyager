@@ -142,7 +142,7 @@
 { "countryCode" : "MR", "name" : "MAURITANIA", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MU", "name" : "MAURITIUS", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "YT", "name" : "MAYOTTE", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
-{ "countryCode" : "MX", "name" : "MEXICO", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
+{ "countryCode" : "MX", "name" : "MEXICO", "currencyCode" : "MXN", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "FM", "name" : "MICRONESIA, FEDERATED STATES OF", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MD", "name" : "MOLDOVA, REPUBLIC OF", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},
 { "countryCode" : "MC", "name" : "MONACO", "currencyCode" : "", "GDP" : "", "debt" : "", "bigmac" : ""},

@@ -1,0 +1,77 @@
+{
+	"currencyCode" : "MXN",
+	"currencyName" : "The Peso",
+	"inflationRate" : "3.6%",
+	"fraction"	: "",
+	"symbol"	: "&#8369;",
+	"countries" : ["Mexico"],
+	"bio" : "This is where the bio goes",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "10 Pesos",
+	 	"shortname" : "10 Peso",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10_front.jpg",
+	 			"heading" : "Emiliano Zapata",
+	 			"copy" : "Leader during the Mexican Revolution"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10_back.jpg",
+	 			"heading" : "Scene from Morelos",
+	 			"copy" : "Sout-Central Mexican state"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "20 Pesos",
+	 	"shortname" : "20 Peso",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "20_front.jpg",
+	 			"heading" : "Benito Juárez",
+	 			"copy" : "President exiled during the French intervention",
+	 			"info" 	: [
+	 				"front of the 20 peso"
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "20_back.jpg",
+	 			"heading" : "Juárez Hemicycle monument",
+	 			"copy" : "Located in Mexico City",
+	 			"info" 	: [
+	 				"back of the 20 peso"
+	 			]
+	
+			}
+	}, 
+	{
+		"order" : "3",
+	 	"name" : "50 Pesos",
+	 	"shortname" : "50 Peso",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50_front.jpg",
+	 			"heading" : "José María Morelos y Pavón",
+	 			"copy" : " Roman Catholic priest and revolutionary rebel leader",
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50_back.jpg",
+	 			"heading" : "Scene from Michoacán",
+	 			"copy" : "Location of the Cristero War of 1926",
+			}
+	}]
+	
+
+}
