@@ -160,6 +160,10 @@ body {
   #fixednav li {
     display: inline; }
 
+#backtomap {
+  margin-left: 1em;
+  background-image: url(../img/uparrow.svg); }
+
 .logo2 {
   text-align: center;
   height: 120px;
@@ -263,7 +267,6 @@ body {
 #hello {
   width: 70%;
   margin-left: 15%;
-  margin-top: 2em;
   color: white;
   text-align: center;
   text-shadow: 1px 1px 1px #666;
@@ -300,19 +303,21 @@ body {
     font-size: 1.5em; }
 
 #map {
-  padding-top: 3em;
+  padding-top: 0em;
   margin-bottom: 0;
-  margin-top: 0;
-  height: 400px; }
+  margin-top: 0em;
+  height: auto; }
+
+.map {
+  position: relative; }
 
 .mapcontainer {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  padding-left: 3em;
-  padding-right: 3em;
-  width: 100%; }
+  margin-bottom: 2em;
+  margin-top: 0em; }
   .mapcontainer:last-child {
     margin-right: 0; }
 
@@ -328,14 +333,43 @@ body {
   display: none;
   color: #343434; }
 
-.zoomOut {
-  font-size: 30px;
-  cursor: pointer;
-  margin-top: 0.5em; }
-
 .zoomIn {
-  font-size: 30px;
-  cursor: pointer; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  margin-left: 42.64902%;
+  font-size: 2em;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 0em;
+  line-height: 2em;
+  -webkit-transition: color 0.1s ease-in 0s;
+  -moz-transition: color 0.1s ease-in 0s;
+  transition: color 0.1s ease-in 0s; }
+  .zoomIn:last-child {
+    margin-right: 0; }
+  .zoomIn:hover {
+    color: rgba(250, 0, 0, 0.5); }
+
+.zoomOut {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  font-size: 2em;
+  cursor: pointer;
+  text-align: center;
+  line-height: 2em;
+  margin-top: 0em;
+  -webkit-transition: color 0.1s ease-in 0s;
+  -moz-transition: color 0.1s ease-in 0s;
+  transition: color 0.1s ease-in 0s; }
+  .zoomOut:last-child {
+    margin-right: 0; }
+  .zoomOut:hover {
+    color: rgba(250, 0, 0, 0.5); }
 
 .info1 {
   height: 200px;
@@ -410,6 +444,7 @@ body {
     margin-right: 0; }
 
 .noteholder {
+  margin-bottom: 1em;
   overflow-x: hidden;
   width: 100%; }
 
@@ -596,9 +631,11 @@ hr {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1000;
   padding-top: 4em;
   padding-bottom: 2em;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   #end:before, #end:after {
     content: " ";
     display: table; }
@@ -614,12 +651,11 @@ hr {
     text-align: center; }
 
 footer {
-  border-top: 1px solid #666;
-  margin-top: 5em;
+  border-top: 1px solid #555;
+  margin-top: 0em;
   height: auto;
   background-color: rgba(143, 220, 229, 0.8);
-  width: 100%;
-  z-index: 200; }
+  width: 100%; }
   footer p {
     text-align: center;
     margin-top: 0;

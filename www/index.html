@@ -21,10 +21,32 @@
     <script src="js/maps/world_countries.js" charset="utf-8" ></script>
     <script src="worldmap.js" charset="utf-8" ></script>
     
+    <!-- icons: http://thenounproject.com/term/airplane/9033/ -->
 
     <script>
 
         $(document).ready(function(){
+
+             /*var timer;
+                    $('#promo').slideDown('slow', function () {
+                    timer = setTimeout(function () {
+                    $('#promo').slideUp("slow", "easein");
+                    }, 5000);
+
+                });
+                    $('#downwego').click(function () {
+                    if ($('#promo').is(":hidden")) {
+                    $('#promo').slideDown('slow', function () {
+                        timer = setTimeout(function () {
+                            $('#promo').slideUp("slow", "easein");
+                        }, 5000);
+                });
+
+                    } else {
+                    $('#promo').slideUp('slow');
+                    clearTimeout(timer);
+                    }
+            });*/
 
             $(window).resize(function(){ $("#promo").css("height", $(window).height()); });
         
@@ -107,6 +129,7 @@
             <li id="countryName">Costa Rica</li>
             <li class="currencyname">The Colon</li>
             <li><select class='countrySelector'></select>
+            <li href="#map" id="backtomap"></li>
         </ul>
     </nav>
 
@@ -119,8 +142,10 @@
         <!-- this is the intro -->
         <h3 id="hello">Begin your voyage & start exploring money from around the world now.</h3>
 
-        <a href="#map"><h3 id="downwego"></h3></a>
+        <a href="#scrollto"><h3 id="downwego"></h3></a>
     </section>
+
+    
 
  <section class="container">
         <!-- this section is for the info -->
@@ -130,6 +155,7 @@
             <div class="icons">
                 <img class ="flag" src="img/costaflag.png">
                 <h2 class="icon currencySymbol"> &#8353 </h2>
+
             </div>
             <hr>
                 <br>
@@ -196,7 +222,7 @@
                         <div class ="note notefront">
                             <img class="money" src="img/2costa2.png">
                             <h5>Mauro Fernández Acuña</h5>
-                            <h6>Director of the Bank of Costa Rica</h6>
+                            <h6 id="scrollto">Director of the Bank of Costa Rica</h6>
                         </div>
                         <div class ="note noteback">
                             <img class="money" src="img/2costa.png">
@@ -237,12 +263,11 @@
         </div>
     </section>
 
-
-    <div id="map">
+    <section id="map" style="overflow: hidden;">
         <div class="mapcontainer" class="smoothScroll">
             <div class="map">Alternative content</div>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div id="end">
@@ -253,6 +278,7 @@
                 <li>&#8195;&#8226;&#8195; San Francisco, Ca.</li>
                 <li>&#8195;&#8226;&#8195; info@currencyvoyager.com</li>
             </ul>
+            <!--<p class="copy">© Copyright Currency Voyager Ltd 2013.</p>-->
         </div>
         <div id="subfooter">
             <div class="space"></div>
@@ -280,7 +306,8 @@ $(document).ready(function(){
         map: {
             name: "world_countries",
             zoom: {
-                enabled: true
+                enabled: true,
+
             },
             defaultArea: {
                 attrs: {
@@ -331,42 +358,7 @@ $(document).ready(function(){
                 }
             }
         },
-        areas: {
-            "department-29": {
-                text: {
-                    content: "dblclick",
-                    position: "top"
-                },
-                attrs: {
-                    fill: "#0088db"
-                },
-                tooltip: {
-                    content: "Finistère (29)"
-                },
-                eventHandlers: {
-                    click: function () {},
-                    dblclick: function (e, id, mapElem, textElem) {
-                        var newData = {
-                            'areas': {}
-                        };
-                        if (mapElem.originalAttrs.fill == "#5ba4ff") {
-                            newData.areas[id] = {
-                                attrs: {
-                                    fill: "#0088db"
-                                }
-                            };
-                        } else {
-                            newData.areas[id] = {
-                                attrs: {
-                                    fill: "#5ba4ff"
-                                }
-                            };
-                        }
-                        $(".maparea3").trigger('update', [newData, false, false, 0]);
-                    }
-                }
-            }
-        }
+        
     });
 
 
@@ -395,7 +387,7 @@ $(document).ready(function(){
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
+        }, 900 - 100, 'swing', function () {
             window.location.hash = target;
         });
     });

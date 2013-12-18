@@ -24,7 +24,7 @@
 						var x = (lon * xfactor) + xoffset;
 						
 						var yfactor = -2.753;
-						var yoffset = 231;
+						var yoffset = 10;
 						var y = (lat * yfactor) + yoffset;
 						
 						return {x : x, y : y};
