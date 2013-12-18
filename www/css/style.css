@@ -145,7 +145,9 @@ body {
   top: 0;
   width: 100%;
   height: 50px;
-  z-index: 100; }
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2); }
 
 #fixednav {
   display: block;
@@ -153,6 +155,10 @@ body {
   margin: 5 auto;
   padding: 0px 25px;
   margin-top: 1em; }
+  #fixednav ul {
+    list-style-type: none; }
+  #fixednav li {
+    display: inline; }
 
 .divide {
   padding-bottom: 3em; }
@@ -163,7 +169,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  top: 1em; }
+  top: 1em;
+  right: 0; }
   .countrySelector:before, .countrySelector:after {
     content: " ";
     display: table; }
@@ -174,6 +181,11 @@ body {
   background-color: none;
   height: 0;
   z-index: 1; }
+
+.logo {
+  text-align: center;
+  width: 80px;
+  height: 80px; }
 
 #select {
   *zoom: 1;
@@ -285,6 +297,15 @@ body {
   max-width: 200px;
   display: none;
   color: #343434; }
+
+.zoomOut {
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 0.5em; }
+
+.zoomIn {
+  font-size: 30px;
+  cursor: pointer; }
 
 .info1 {
   height: 200px;
@@ -539,6 +560,50 @@ hr {
     margin-top: -157px; }
   .pie h6 {
     margin-top: -90px; }
+
+#end {
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  text-align: center; }
+  #end:before, #end:after {
+    content: " ";
+    display: table; }
+  #end:after {
+    clear: both; }
+  #end .est {
+    padding-top: 1em; }
+  #end ul {
+    list-style-type: none;
+    width: auto; }
+  #end li {
+    display: inline;
+    text-align: center; }
+
+footer {
+  border-top: 1px solid #666;
+  margin-top: 5em;
+  height: auto;
+  background-color: rgba(143, 220, 229, 0.8);
+  width: 100%;
+  z-index: 200; }
+  footer p {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: em; }
+
+#subfooter {
+  bottom: 0;
+  background-color: #8fdce5;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8fdce5), color-stop(50%, #3dc3d1));
+  background-image: -webkit-linear-gradient(top, #8fdce5 50%, #3dc3d1 50%);
+  background-image: linear-gradient(to bottom,#8fdce5 50%, #3dc3d1 50%);
+  width: 100%; }
+  #subfooter .space {
+    height: 8em; }
 
 /*#footer {
 

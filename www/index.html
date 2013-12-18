@@ -31,10 +31,6 @@
             });
 
         });
-
-       
-});
-
     </script>
    
     <script type="text/javascript" src="js/libs/raphael.js"></script>
@@ -90,10 +86,11 @@
 <body>
 
     <nav id="fixedbar">
-    <ul id="fixednav">
-        <select class='countrySelector'>
-        </select>
-    </ul>
+        <ul id="fixednav">
+            <li id="countryName">Costa Rica</li>
+            <li class="currencyname">The Colon</li>
+            <li><select class='countrySelector'></select>
+        </ul>
     </nav>
 
     <header style="height:0">
@@ -128,7 +125,7 @@
 
            
 
-            <h3 id="countryName">Costa Rica</h3><!--country name-->
+            <!--country name-->
             <ul class="noteselect">
                 <li><a class = "currentNoteIndicator"data-key="0" href="#">&#8353;2Mil</a></li>
                 <li><a data-key="1" href="#">&#8353;4Mil</a></li>
@@ -191,7 +188,7 @@
 
     <section class="container">
         <!-- this section is for the info -->
-         <h3 class="currencyname">The Colon</h3>
+        
         <div class="infocol">
             
             <div class="icons">
@@ -245,6 +242,21 @@
         </div>
     </div>
 
+    <footer>
+        <div id="end">
+            <img class="logo" src="img/templogo.png"></img>
+            <h4 class="est">EST. 2013</h4>
+            <ul class="cvinfo">
+                <li>Currency Voyager</li>
+                <li>&#8195;&#8226;&#8195; San Francisco, Ca.</li>
+                <li>&#8195;&#8226;&#8195; info@currencyvoyager.com</li>
+            </ul>
+        </div>
+        <div id="subfooter">
+            <div class="space"></div>
+        </div>
+    </footer>
+
 
 <!--<script src="countries.js" type="text/javascript"></script>-->
     <script type="text/javascript">
@@ -271,11 +283,12 @@ $(document).ready(function(){
             defaultArea: {
                 attrs: {
                     fill: "#666666",
-                    stroke: "#000000" ,
+                    stroke: "#666666" ,
                     cursor: "pointer"
                 },
                 attrsHover: {
-                    animDuration: 0
+                    animDuration: 0,
+                    fill: "#8fdce5",
                 },
                 text: {
                     attrs: {
@@ -367,7 +380,7 @@ $(document).ready(function(){
       $('#fixedbar').fadeIn(250);
     }
 
-    else if(scrolltop <= 210) {
+    else if(scrolltop <= 600) {
       $('#fixedbar').fadeOut(250);
     }
     });

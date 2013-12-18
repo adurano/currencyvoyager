@@ -21,6 +21,9 @@ position: relative;
   height: 50px;
   //background: rgba(255,255,255,0.75);
   z-index: 100;
+  background-color: rgba(255,255,255,0.9);
+  @include box-shadow(0 0 5px 3px hsla(0, 0%, 0%, 0.2));
+  
 }
 
 #fixednav { 
@@ -29,6 +32,12 @@ position: relative;
   margin: 5 auto;
   padding: 0px 25px;
   margin-top: 1em;
+  ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+    }
 }
 
 .divide {
@@ -39,6 +48,7 @@ position: relative;
     @include outer-container;
     width: 100%;
     top: 1em;
+    right: 0;
 }
 
 // fixed nav end
@@ -53,6 +63,9 @@ position: relative;
 }
 
 .logo {
+    text-align: center;
+    width: 80px;
+    height: 80px;
     //background-image: url(../img/templogo.png);
 }
 
@@ -154,6 +167,21 @@ position: relative;
     display:none;
     color:#343434;
 }
+
+.zoomOut {
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 0.5em;
+
+}
+
+.zoomIn {
+    font-size: 30px;
+    cursor: pointer;
+
+    
+}
+
 
 .info1 {
     height: 200px;
@@ -450,6 +478,55 @@ hr {
 .bar {
 
 }
+
+#end {
+    @include outer-container;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    text-align: center;
+
+    .est {
+        padding-top: 1em;
+        
+    }
+    ul {
+        list-style-type: none;
+        width: auto;
+    }
+    li {
+        display: inline;
+        text-align: center;
+        
+
+    }
+    //li::after{
+    //    content: '|'
+    //}
+}
+
+footer {
+    border-top: 1px solid #666;
+    margin-top: 5em;
+    height: auto;
+    background-color: rgba(143, 220, 229, 0.8);
+    width: 100%;
+    z-index: 200;
+    p{
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: em;
+    }
+}
+
+#subfooter {
+    bottom: 0;
+    @include linear-gradient(to bottom, #8fdce5 50%, #3dc3d1 50%);
+    width: 100%;
+    .space {
+        height: 8em;
+    }
+}
+
 
 /*#footer {
 
