@@ -18,6 +18,7 @@ h3,.gamma   { @include rhythm(2, 0, 1.5); }
 h4,.delta   { @include rhythm(1, 0, 0); }
 h5,.epsilon { @include rhythm(1, 0, 0); }
 h6,.zeta    { @include rhythm(0, 1, 1); }
+
 p, ul, ol   { @include rhythm(0, 0, 1); 
 
 	font-family: $font-body;

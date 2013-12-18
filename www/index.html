@@ -26,11 +26,17 @@
 
         $(document).ready(function(){
 
+            $(window).resize(function(){ $("#promo").css("height", $(window).height()); });
+        
+             $("#promo").css("height", $(window).height());
+
             $("#graph").click(function(e){
                 console.log(e);
             });
 
         });
+
+            
     </script>
    
     <script type="text/javascript" src="js/libs/raphael.js"></script>
@@ -85,39 +91,86 @@
 
 <body>
 
+    <header >
+        <!--Use the background tag on this element for logo-->
+
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+    </header>
+
     <nav id="fixedbar">
         <ul id="fixednav">
+            <li class="logo2"></li>
             <li id="countryName">Costa Rica</li>
             <li class="currencyname">The Colon</li>
             <li><select class='countrySelector'></select>
         </ul>
     </nav>
 
-    <header style="height:0">
- 
-            <img class="logo"></img><!--Use the background tag on this element for logo-->
-
-            <nav>
-                <ul>
-                    <li><a href="#"></a></li>
-                </ul>
-            </nav>
-
-    </header>
-
     
 
     <!--<div class="contents"></div>-->
 
-    <section class="container1">
-        
+    <section id="promo" style="height: auto;">
+        <h1 class="logo"></h1>
         <!-- this is the intro -->
         <h3 id="hello">Begin your voyage & start exploring money from around the world now.</h3>
 
-        <a href="#map"><img id="downwego" src="img/downarrow.svg" width="80" height="80"></a>
+        <a href="#map"><h3 id="downwego"></h3></a>
     </section>
 
- 
+ <section class="container">
+        <!-- this section is for the info -->
+        
+        <div class="infocol">
+            
+            <div class="icons">
+                <img class ="flag" src="img/costaflag.png">
+                <h2 class="icon currencySymbol"> &#8353 </h2>
+            </div>
+            <hr>
+                <br>
+                <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>
+
+                 <h5 class = "infolabel">Also used in: </h5>
+                <ul class="allcountries">
+
+                </ul>
+
+        </div>
+        <div class="infocol">
+            <div id="exchangerate">
+                <h5 class = "infolabel">Exchange Rate: </h5>
+                <div class="chart">
+
+                    <div class="bar" id="bar1"><p>USD</p></div>
+                    <div class="bar" id="bar2"><p>EUR</p></div>
+                    <div class="bar" id="bar3"><p>CRN</p></div>
+                    
+
+                </div>
+            </div>
+            <h6 class = "infolabel">GDP: </h6>
+            <h5 class ="inforesult gdpValue">$66 Trillion</h5>
+            <h6 class = "infolabel">Inflation Rate: </h6>
+            <h5 class ="inforesult infaltionValue">3%</h5>
+        </div>
+        <div class="infocol">
+             <div id="bigmacindex">
+                <h5 class = "infolabel">Big Mac Index: </h5>
+                <div class="chart"></div>
+            </div>
+            <h6 class = "infolabel debtValue">National Debt: </h6>
+            <h5 class ="inforesult">$303 Trillion</h5>
+            <h6 class = "infolabel circulationValue">In circulation: </h6>
+            <h5 class ="inforesult">$938 Million</h5>
+
+        </div>
+    </section>
+    
 
     <section>
         <div class="container" id="notessection">
@@ -184,57 +237,6 @@
         </div>
     </section>
 
-    
-
-    <section class="container">
-        <!-- this section is for the info -->
-        
-        <div class="infocol">
-            
-            <div class="icons">
-                <img class ="flag" src="img/costaflag.png">
-                <h2 class="icon currencySymbol"> &#8353 </h2>
-            </div>
-            <hr>
-                <br>
-                <p class="notebio">Named after Christopher Columbus, known as Cristóbal Colón in Spanish, is the currency of Costa Rica.</p>
-
-                 <h5 class = "infolabel">Also used in: </h5>
-                <ul class="allcountries">
-
-                </ul>
-
-        </div>
-        <div class="infocol">
-            <div id="exchangerate">
-                <h5 class = "infolabel">Exchange Rate: </h5>
-                <div class="chart">
-
-                    <div class="bar" id="bar1"><p>USD</p></div>
-                    <div class="bar" id="bar2"><p>EUR</p></div>
-                    <div class="bar" id="bar3"><p>CRN</p></div>
-                    
-
-                </div>
-            </div>
-            <h6 class = "infolabel">GDP: </h6>
-            <h5 class ="inforesult gdpValue">$66 Trillion</h5>
-            <h6 class = "infolabel">Inflation Rate: </h6>
-            <h5 class ="inforesult infaltionValue">3%</h5>
-        </div>
-        <div class="infocol">
-             <div id="bigmacindex">
-                <h5 class = "infolabel">Big Mac Index: </h5>
-                <div class="chart"></div>
-            </div>
-            <h6 class = "infolabel debtValue">National Debt: </h6>
-            <h5 class ="inforesult">$303 Trillion</h5>
-            <h6 class = "infolabel circulationValue">In circulation: </h6>
-            <h5 class ="inforesult">$938 Million</h5>
-
-        </div>
-    </section>
-    
 
     <div id="map">
         <div class="mapcontainer" class="smoothScroll">
@@ -244,7 +246,7 @@
 
     <footer>
         <div id="end">
-            <img class="logo" src="img/templogo.png"></img>
+            <h1 class="logo2"></h1>
             <h4 class="est">EST. 2013</h4>
             <ul class="cvinfo">
                 <li>Currency Voyager</li>

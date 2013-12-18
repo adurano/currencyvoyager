@@ -27,12 +27,13 @@ position: relative;
 }
 
 #fixednav { 
-  display: block;
-  width: 710px;
-  margin: 5 auto;
-  padding: 0px 25px;
-  margin-top: 1em;
-  ul {
+    text-align: left;
+    display: block;
+    width: 710px;
+    margin: 5 auto;
+    
+    margin-top: 1em;
+    ul {
         list-style-type: none;
     }
     li {
@@ -40,8 +41,24 @@ position: relative;
     }
 }
 
-.divide {
-    padding-bottom: 3em;
+.logo2 {
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    background-image: url(../img/templogo.png);
+    overflow: hidden;
+
+    //background-image: url(../img/templogo.png);
+}
+
+#countryName {
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+.currencyname{
+    margin-left: 1em;
+    font-size: 2em;
 }
 
 .countrySelector {
@@ -53,19 +70,14 @@ position: relative;
 
 // fixed nav end
 
-#header {
-    
-    background-color: none;
-    //background-color: rgba(250, 0, 0, 0.5); 
-    height: 0;
-    z-index:1;
-
-}
 
 .logo {
+    @include outer-container;
     text-align: center;
-    width: 80px;
-    height: 80px;
+    height: 120px;
+    width: 120px;
+    background-image: url(../img/templogo.png);
+    margin-top: 0.3em;
     //background-image: url(../img/templogo.png);
 }
 
@@ -87,42 +99,47 @@ position: relative;
 
 .container {
    @include outer-container;
-   margin-top: 1em;
+   margin-top: 0em;
 }
 
-.container1 {
+#promo {
    @include span-columns(12);
    margin-top: -2em;
    margin-bottom: 4em;
    //border-top: 1px solid #666;
    //border-bottom: 1px solid #666;
-   padding: 15em 7em 9em 7em;
+   //padding: 15em 7em 9em 7em;
    width: 100%;
+   height: 100%;
    background-color: white;
-   height: 750px;
    background-image: url(../img/hero.png);
    background-position-x: 90%;
-   background-position-y: 45%;
+   background-position-y: 95%;
    background-repeat: none;
-   z-index:2;
-
+   
 }
 
 #hello {
-    h3 {
-        text-align: center;
-      }
     width: 70%;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 2em;
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px #666;
-
+    padding-top: 3em;
+    h3 {
+        text-align: center;
+      }
 }
 
 #downwego {
-    margin-top: 5em;
+    @include outer-container;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 2em;
+    background-image: url(../img/downarrow.svg);
+
 }
 
 .infocol {
@@ -136,7 +153,7 @@ position: relative;
 }
 
 #map {
-    padding-top: 0; 
+    padding-top: 3em; 
     margin-bottom: 0;
     margin-top: 0;
     height: 400px;
@@ -178,7 +195,6 @@ position: relative;
 .zoomIn {
     font-size: 30px;
     cursor: pointer;
-
     
 }
 
@@ -516,6 +532,16 @@ footer {
         margin-top: 0;
         padding-bottom: em;
     }
+}
+
+.logo2 {
+    @include outer-container;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    background-image: url(../img/templogo.png);
+
+    //background-image: url(../img/templogo.png);
 }
 
 #subfooter {

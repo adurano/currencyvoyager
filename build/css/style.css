@@ -26,12 +26,12 @@ html {
   -ms-text-size-adjust: 100%; }
 
 ::-moz-selection {
-  background: #59c4fc;
+  background: rgba(250, 0, 0, 0.5);
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #59c4fc;
+  background: rgba(250, 0, 0, 0.5);
   color: #fff;
   text-shadow: none; }
 
