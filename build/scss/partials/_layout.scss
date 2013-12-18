@@ -49,15 +49,15 @@ position: relative;
 
 }
 
-.logo2 {
+/*.logo2 {
     text-align: center;
     height: 100px;
-    width: 250px;
-    background-image: url(../img/logo.svg);
+    width: 100px;
+    background-image: url(../img/logo2.svg);
     overflow: hidden;
 
     //background-image: url(../img/templogo.png);
-}
+}*/
 
 #countryName {
     margin-left: 1em;
@@ -113,7 +113,7 @@ position: relative;
 #promo {
    @include span-columns(12);
    margin-top: -2em;
-   margin-bottom: 4em;
+   margin-bottom: 0em;
    //border-top: 1px solid #666;
    //border-bottom: 1px solid #666;
    //padding: 15em 7em 9em 7em;
@@ -148,6 +148,11 @@ position: relative;
     background-image: url(../img/downarrow.svg);
 
 }
+ #scrollto {
+    background-color: #FFFFFF;
+    visibility: hidden;
+    margin-bottom: 3.7em;
+ }
 
 .infocol {
 
@@ -201,21 +206,18 @@ position: relative;
 .zoomIn {
     @include span-columns(1);
     @include shift(5);
-
     font-size: 2em;
     cursor: pointer;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     margin-top: 0em;
-    margin-right: 0;
     line-height: 2em;
-    border-bottom: 2px solid white;
+    //border: 2px solid #666;
     @include transition (color 0.3s ease-in 0s);
         &:hover{
             
             color:  rgba(250, 0, 0, 0.5);
-            
-           border-bottom: 2px solid rgba(250, 0, 0, 0.5);
+            border-bottom: 2px solid rgba(250, 0, 0, 0.5);
     }
 }
 
@@ -226,7 +228,7 @@ position: relative;
     text-align: center;
     line-height: 2em;
     margin-top: 0em;
-    
+    //border: 2px solid #666;
     @include transition (color 0.3s ease-in 0s);
         &:hover{
             
@@ -542,7 +544,7 @@ hr {
     position: relative;
 
     .est {
-        padding-top: 1em;
+        padding-top: 0em;
         
     }
     ul {
@@ -577,8 +579,8 @@ footer {
     @include outer-container;
     text-align: center;
     height: 100px;
-    width: 250px;
-    background-image: url(../img/logo.svg);
+    width: 100px;
+    background-image: url(../img/logo2.svg);
 
     //background-image: url(../img/templogo.png);
 }
