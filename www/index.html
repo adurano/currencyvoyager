@@ -356,8 +356,15 @@ $(document).ready(function(){
                             }
                            // console.log(id);
 
-
                         };
+
+                        onClick = ('click', function(e) {
+                           // alert("yeah man");
+                           //e.preventDefault();
+                           $('html, body').animate({scrollTop:$("#countryName").offset().top}, 500);
+                            
+                        });
+
                         if (mapElem.originalAttrs.fill == "#5ba4ff") {
                             newData.areas[id] = {
                                 attrs: {
