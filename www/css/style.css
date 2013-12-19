@@ -138,6 +138,8 @@ body {
   background: url(../img/map.png) repeat;
   background-position-y: top;
   position: relative; }
+  body:active {
+    transform: rotateZ(50deg); }
 
 #fixedbar {
   display: block;
@@ -193,6 +195,9 @@ body {
   font-size: 2em; }
   .headerbit:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 640px) {
+    .headerbit {
+      font-size: 1em; } }
 
 #backtomap {
   margin-left: 1em; }
@@ -220,11 +225,14 @@ body {
     cursor: pointer;
     width: 140px;
     font-size: 1em; }
+  .countrySelector li:hover {
+    color: black;
+    transition: color .3s ease-in-out;
+    cursor: pointer; }
 
 .openmenu {
   padding-top: 1em;
   height: 600%;
-  border: 1px solid black;
   border-top: none; }
 
 .select {
@@ -234,9 +242,19 @@ body {
   width: 12.55938%;
   margin-left: 7.28672%;
   position: relative;
-  border: 1px solid black; }
+  padding-top: 1.3em;
+  font-family: Arvo, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.7); }
   .select:last-child {
     margin-right: 0; }
+
+.select:hover {
+  background-color: rgba(143, 220, 229, 0.8);
+  transition: background-color .3s ease-in-out;
+  cursor: pointer; }
 
 .logo {
   text-align: center;
@@ -287,6 +305,7 @@ body {
 #promo {
   margin-top: -2em;
   margin-bottom: 0em;
+  padding-top: 10%;
   background-image: url(../img/hero.png);
   background-position-x: 90%;
   background-position-y: 95%;
@@ -333,6 +352,22 @@ body {
     margin-right: 0; }
   .infocol h5 {
     font-size: 1.5em; }
+  @media screen and (min-width: 641px) and (max-width: 899px) {
+    .infocol {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .infocol:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 641px) and (max-width: 899px) {
+    .infocol {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .infocol:last-child {
+        margin-right: 0; } }
 
 #map {
   padding-top: 0em;
@@ -423,7 +458,7 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 74.41059%; }
   .noteselect:last-child {
     margin-right: 0; }
   .noteselect li {
@@ -459,7 +494,7 @@ body {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
+  width: 23.23176%;
   margin-right: 0;
   text-align: right; }
   #notearrows:last-child {
@@ -584,14 +619,20 @@ body {
     height: 90%; }
 
 /* --------------- FLAG SECTION ( fetch background? )---- */
-.icons {
+.icon {
   float: left;
   display: block;
   margin-right: 2.01406%;
   width: 85.42656%;
-  margin-bottom: 2em; }
-  .icons:last-child {
+  font-size: 4em; }
+  .icon:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 641px) and (max-width: 899px) {
+    .icon {
+      font-size: 20em; } }
+  @media screen and (max-width: 640px) {
+    .icon {
+      font-size: 5em; } }
 
 .flag {
   float: left;
@@ -602,8 +643,7 @@ body {
     margin-right: 0; }
   .flag img {
     padding-left: 0;
-    padding-top: 10%;
-    max-width: 50%; }
+    padding-top: 10%; }
 
 hr {
   color: #f00; }
@@ -658,7 +698,8 @@ hr {
     font-size: .9em; }
 
 .infolabel {
-  text-shadow: 1px 1px 1px #fff; }
+  text-shadow: 1px 1px 1px #fff;
+  text-align: left !important; }
 
 /* --------------- GRAPH SECTION ------------------------- */
 .graphsection {

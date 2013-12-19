@@ -156,12 +156,16 @@ function toTitleCase(str)
 						$(".flag").attr("src", "countries/"+country.countryCode+".png");
 						$(".notebio").html(currency.bio);
 						$(".infaltionValue").html(currency.inflationRate);
+						$(".debtValue").html(country.GDP);
+
+
+
 
 						$.getJSON( "http://openexchangerates.org//api/latest.json?app_id=593018fa7c1944e285e2a4097c5040b8", function( exchange ) {
 
 							//var thisthing = ;
-							//var rates = exchange.rates[country.currencyCode];
-
+							var rates = exchange.rates[country.currencyCode];
+							$(".exchangeValue").html(exchange.rates[country.currencyCode]);
 							
 							//console.log(country.currencyCode + " " + rates);
 
