@@ -1,0 +1,177 @@
+{
+	"currencyCode" : "RUB",
+	"currencyName" : "Rubel",
+	"inflationRate" : "6.6%",
+	"fraction"	: "Rubles",
+	"symbol"	: "&#8374;",
+	"countries" : ["Russia"],
+	"bio" : "The currency of the Russian Federation and the two partially recognized republics of Abkhazia and South Ossetia. Formerly, the ruble was also the currency of the Russian Empire and the Soviet Union before their dissolution.",
+	
+	"notes" : [{
+		"order" : "1",
+	 	"name" : "5 rub",
+	 	"shortname" : "5 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5rub_a.jpg",
+	 			"heading" : "The Millennium of Russia monument",
+	 			"copy" : "on background of Saint Sophia Cathedral in Veliky Novgorod"
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5rub_b.jpg",
+	 			"heading" : "Novgorod Kremlin",
+	 			"copy" : "Fortress wall"
+			}
+	},
+	{
+		"order" : "2",
+	 	"name" : "10 rub",
+	 	"shortname" : "10 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "10rub_a.jpg",
+	 			"heading" : "Kommunalny Bridge across the Yenisei River",
+	 			"copy" : "Krasnoyarsk and Paraskeva Pyatnitsa Chapel",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "10rub_b.jpg",
+	 			"heading" : "Krasnoyarsk hydroelectric plant",
+	 			"copy" : "A concrete gravity dam located on the Yenisey River.",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},
+		{
+		"order" : "3",
+	 	"name" : "50 rub",
+	 	"shortname" : "50 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "50rub_a.jpg",
+	 			"heading" : "Rostral Column",
+	 			"copy" : "sculpture on background of Petropavlosk Fortress in Saint Petersburg",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "50rub_b.jpg",
+	 			"heading" : "Old Saint Petersburg Stock Exchange",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "4",
+	 	"name" : "100 rub",
+	 	"shortname" : "100 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "100rub_a.jpg",
+	 			"heading" : "Quadriga",
+	 			"copy" : "On the portico of the Bolshoi Theatre in Moscow.",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "100rub_b.jpg",
+	 			"heading" : "The Bolshoi Theatre",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "5",
+	 	"name" : "500 rub",
+	 	"shortname" : "500 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "500rub_a.jpg",
+	 			"heading" : "Monument to Peter the Great",
+	 			"copy" : "Sedov sailing ship and sea terminal in Arkhangelsk",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "500rub_b.jpg",
+	 			"heading" : "Solovetsky Monastery",
+	 			"copy" : "",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "1000 rub",
+	 	"shortname" : "1000 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "1000rub_a.jpg",
+	 			"heading" : "Monument to Yaroslav I the Wise",
+	 			"copy" : "and the Lady of Kazan Chapel in Yaroslavl",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "1000rub_b.jpg",
+	 			"heading" : "John the Baptist Church",
+	 			"copy" : "in Yaroslavl",
+	 			"info" 	: [
+	 			]
+	
+			}
+	},	{
+		"order" : "6",
+	 	"name" : "5000 rub",
+	 	"shortname" : "5000 rub",
+	 	"inCirc" : "",
+	 	
+	 	"front" : 
+	 		{ 
+	 			"image" : "5000rub_a.jpg",
+	 			"heading" : "Monument to Nikolay Muravyov-Amursky",
+	 			"copy" : "in Khabarovsk",
+	 			"info" 	: [
+	 			]
+	
+	 		},
+	 	"back" :  
+	 		{ 
+	 			"image" : "5000rub_b.jpg",
+	 			"heading" : "Khabarovsk Bridge",
+	 			"copy" : "over the Amur",
+	 			"info" 	: [
+	 			]
+	
+			}
+	}]
+	
+
+}

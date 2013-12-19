@@ -7,68 +7,149 @@
 	"countries" : ["United States", "East Timor", "Ecuador", "El Salvador", "Panama"],
 	"bio" : "This is where the bio goes",
 	
-	"notes" : [{
-		"order" : "1",
-	 	"name" : "Five Dollar Bill",
-	 	"shortname" : "5",
-	 	"inCirc" : "400",
-	 	
-	 	"front" : 
-	 		{ 
-	 			"image" : "5_front.jpg",
-	 			"heading" : "Abe",
-	 			"copy" : "A couple sentences of information discussing the image",
-	 			"info" 	: [
-	 				"This bill features Abe Lincoln",
-	 				"Some Other Detail",
-	 				"it's the front"
-	 			]
-	
-	 		},
-	 	"back" :  
-	 		{ 
-	 			"image" : "5_back.jpg",
-	 			"heading" : "memorial",
-	 			"copy" : "A couple sentences of information discussing the image",
-	 			"info" 	: [
-	 				"This is the lincoln monument",
-	 				"Some Other Detail",
-	 				"it's the back"
-	 			]
-	
-			}
-	},
-	{
-		"order" : "2",
-	 	"name" : "Ten Dollar Bill",
-	 	"shortname" : "10",
-	 	"inCirc" : "1000",
-	 	
-	 	"front" : 
-	 		{ 
-	 			"image" : "10_front.jpg",
-	 			"heading" : "hamilton",
-	 			"copy" : "A couple sentences of information discussing hamilton",
-	 			"info" 	: [
-	 				"This bill features Alexander Hamilton",
-	 				"Some Other Detail",
-	 				"it's the front"
-	 			]
-	
-	 		},
-	 	"back" :  
-	 		{ 
-	 			"image" : "10_back.jpg",
-	 			"heading" : "treasurey",
-	 			"copy" : "A couple sentences of information discussing the image",
-	 			"info" 	: [
-	 				"This bill features the federal reserve",
-	 				"Some Other Detail",
-	 				"it's the back"
-	 			]
-	
-			}
-	}]
-	
+	"notes" : [
+		{
+			"order" : "1",
+			"name" : "Five Dollar Bill",
+			"shortname" : "5",
+			"inCirc" : "400",
 
+			"front" : 
+			{ 
+			"image" : "5_front.jpg",
+			"heading" : "Abraham Lincoln",
+			"copy" : "He preserved the Union, abolished slavery, & strengthened the national government.",
+			"info" 	: [
+			"This bill features Abe Lincoln",
+			"Some Other Detail",
+			"it's the front"
+			]},
+
+			"back" :  
+			{ 
+			"image" : "5_back.jpg",
+			"heading" : "Lincoln Memorial",
+			"copy" : "The building is in the form of a Greek Doric temple and contains a large seated sculpture of Abraham Lincoln.",
+			"info" 	: [
+			"This is the lincoln monument",
+			"Some Other Detail",
+			"it's the back"
+			]}},
+						
+		{
+			"order" : "2",
+			"name" : "Ten Dollar Bill",
+			"shortname" : "10",
+			"inCirc" : "1000",
+
+			"front" : 
+			{ 
+			"image" : "10_front.jpg",
+			"heading" : "Alexander Hamilton",
+			"copy" : "Primary author of the economic policies of the George Washington administration.",
+			"info" 	: [
+			"This bill features Alexander Hamilton",
+			"Some Other Detail",
+			"it's the front"
+			]},
+
+			"back" :  
+			{ 
+			"image" : "10_back.jpg",
+			"heading" : "U.S. Treasury",
+			"copy" : "Primary role is collecting taxes, duties and money paid to and due to the U.S.",
+			"info" 	: [
+			"This bill features the US Treasury",
+			"Some Other Detail",
+			"it's the back"
+			]}},
+
+		{
+			"order" : "3",
+			"name" : "Twenty Dollar Bill",
+			"shortname" : "20",
+			"inCirc" : "4000",
+
+			"front" : 
+			{ 
+			"image" : "20_front.jpg",
+			"heading" : "Andrew Jackson",
+			"copy" : "Politician and army general who led the victory at the Battle of Horseshoe Bend.",
+			"info" 	: [
+			"This bill features Andrew Jackson",
+			"Some Other Detail",
+			"it's the front"
+			]},
+
+			"back" :  
+			{ 
+			"image" : "20_back.jpg",
+			"heading" : "The White House",
+			"copy" : "The official residence and principal workplace of the President of the United States.",
+			"info" 	: [
+			"This bill features the white house",
+			"Some Other Detail",
+			"it's the back"
+			]}},
+
+			{
+			"order" : "4",
+			"name" : "Fifty Dollar Bill",
+			"shortname" : "50",
+			"inCirc" : "4500",
+
+			"front" : 
+			{ 
+			"image" : "50_front.jpg",
+			"heading" : "Ulysses S. Grant",
+			"copy" : "Led the Union army in the defeat of the Confederate military during the Civil War.",
+			"info" 	: [
+			"This bill features Ulysses S. Grant",
+			"Some Other Detail",
+			"it's the front"
+			]},
+
+			"back" :  
+			{ 
+			"image" : "50_back.jpg",
+			"heading" : "United States Capital",
+			"copy" : "Meeting place of the US Congress.",
+			"info" 	: [
+			"This bill features the US Capital",
+			"Some Other Detail",
+			"it's the back"
+			]}},
+
+		{
+			"order" : "5",
+			"name" : "Hundred Dollar Bill",
+			"shortname" : "100",
+			"inCirc" : "4500",
+
+			"front" : 
+			{ 
+			"image" : "100_front.jpg",
+			"heading" : "Benjamin Franklin",
+			"copy" : "A major figure in the American Enlightenment & physics for his discoveries and theories regarding electricity.",
+			"info" 	: [
+			"This bill features Benjamin Franklin",
+			"Some Other Detail",
+			"it's the front"
+			]},
+
+			"back" :  
+			{ 
+			"image" : "100_back.jpg",
+			"heading" : "Independence Hall",
+			"copy" : "US Declaration of Independence & Constitution were adopted here.",
+			"info" 	: [
+			"This bill features Independence Hall",
+			"Some Other Detail",
+			"it's the back"
+			]
+			}
+
+
+}
+]
 }

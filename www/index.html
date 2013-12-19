@@ -49,7 +49,7 @@
             });*/
 
             $(window).scroll(function(){
-            $("#fixedbar").css("top",Math.max(0,680-$(this).scrollTop()));
+            $("#fixedbar").css("top",Math.max(0,$(window).height()-$(this).scrollTop()));
             });
 
             

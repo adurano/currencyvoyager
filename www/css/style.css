@@ -206,8 +206,26 @@ body {
   margin: 0 auto; }
 
 .countrySelector {
-  height: 0px;
-  overflow: hidden; }
+  height: 0;
+  width: auto !important;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: height .3s ease-in-out;
+  position: absolute;
+  top: 50px;
+  left: -210%; }
+  .countrySelector li {
+    display: inline-block;
+    padding: 1em;
+    cursor: pointer;
+    width: 140px;
+    font-size: 1em; }
+
+.openmenu {
+  padding-top: 1em;
+  height: 600%;
+  border: 1px solid black;
+  border-top: none; }
 
 .select {
   float: left;
@@ -215,12 +233,10 @@ body {
   margin-right: 2.01406%;
   width: 12.55938%;
   margin-left: 7.28672%;
-  background: red; }
+  position: relative;
+  border: 1px solid black; }
   .select:last-child {
     margin-right: 0; }
-  .select:active .countrySelector {
-    height: auto;
-    width: 200px; }
 
 .logo {
   text-align: center;
@@ -467,6 +483,14 @@ body {
   .note:last-child {
     margin-right: 0; }
   @media screen and (min-width: 641px) and (max-width: 899px) {
+    .note {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .note:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 640px) {
     .note {
       float: left;
       display: block;

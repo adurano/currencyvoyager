@@ -114,23 +114,49 @@ line-height: 50px;
    // width: 100%;
    // top: 1em;
 
-   height: 0px;
-   overflow: hidden;
+   height: 0;
+   width: auto !important;
+  // padding: 20px;
 
+   overflow: hidden;
+    background-color: rgba(255,255,255,0.7);
+    
+    
+  
+    transition: height .3s ease-in-out;
+   position: absolute;
+    top: 50px;
+    left: -210%;
+
+
+
+
+    li{
+        display: inline-block;
+        padding: 1em;
+        cursor: pointer;
+        width: 140px;
+        font-size: 1em;
+        //-webkit-columns: 3;        
+    }
    // right: 0;
+}
+
+.openmenu {
+    padding-top: 1em;
+    height: 600%;
+    border: 1px solid black;
+    border-top: none;
+
 }
 
 .select {
     @include span-columns(2);
     @include shift(1);
+    position: relative;
+   
+    border: 1px solid black;
 
-    background: red;
-
-    &:active .countrySelector{
-
-        height: auto;   
-        width: 200px;
-    }
 
 
     
@@ -365,7 +391,7 @@ line-height: 50px;
             margin: 0;
             padding: .5em;
             color: #666;
-            @include media($medium){
+            @include media($medium, $small){
 
 
                 font-size: 1em;
@@ -416,7 +442,10 @@ line-height: 50px;
     //position: relative;
     @include media($medium) {
         @include span-columns(12 of 12);
-  }
+     }
+      @include media($small) {
+        @include span-columns(12 of 12);
+     }
 }
 
 .noteholder {

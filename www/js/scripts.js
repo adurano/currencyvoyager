@@ -28,12 +28,24 @@ function toTitleCase(str)
 		$.getJSON( "countries/countries.json", function( countries ) {
 			//console.log("yo");
 
+			var countrylist = ["US", "RU", "JP", "NZ", "AT", "MX", "AU", "AW", "CR", "FR", "ES", "SE"];
+			countrylist.sort();
+
+
 			countries = countries.countries;
 
-			for (var i = 0; i < countries.length; i++) {
-				$(".countrySelector").append("<li value='"+countries[i].countryCode+"'>"+countries[i].name+"</li>");
+			for (var n = 0; n < countrylist.length; n++){
+
+				for (var i = 0; i < countries.length; i++) {
+					if (countries[i].countryCode==countrylist[n]){
+
+						$(".countrySelector").append("<li class='countryselectitem' data-country-code='"+countries[i].countryCode+"'>"+countries[i].name+"</li>");
+					}
+				}
 
 			}
+
+			
 
 		});
 	}
@@ -244,7 +256,7 @@ function toTitleCase(str)
 		positionNotes();
 
 	});
-
+/*
 	$("h1").click(function(){
 
 		getCurrency("CR");
@@ -252,22 +264,35 @@ function toTitleCase(str)
 	});
 
 
-
+*/
 
 
 //---- code for currency selection and queries 
 
-$(document).on('change', '.countrySelector', function(){
-	
-		country_Code = $(this).val();
+$(".select").click(function(){
+
+	$(".countrySelector").addClass("openmenu");
+
+});
+
+
+
+
+$(".countrySelector").on("click", ".countryselectitem", function(){
+		//alert("thisngid");
+		country_Code = $(this).attr("data-country-code");
 		console.log(country_Code);
 		getCurrency(country_Code);
 	
 	});
 
-   
+  
 
+$("#fixedbar").mouseleave(function(){
 
+	$(".countrySelector").removeClass("openmenu");
+
+});
 
 
 
